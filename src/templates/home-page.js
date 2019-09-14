@@ -34,6 +34,13 @@ export default HomePage
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
+    file(relativePath: { eq: "truck.png" }) {
+      childImageSharp {
+        fixed(width: 125, height: 125) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

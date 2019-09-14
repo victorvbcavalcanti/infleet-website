@@ -1,0 +1,34 @@
+.background-hero {
+    background-color: #001132;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.position-section {
+    margin-top: -3.25rem;
+}
+
+.position-hero {
+    margin-bottom: 1rem;
+    width: 30rem;
+}
+
+.position-hero--sub {
+    width: 24rem;
+}
+
+@media (max-width: 768px) {
+    .position-hero {        
+        width: 85vw;    
+    }
+
+    #hero {
+        padding: 9rem 1.25rem;
+    }
+
+    .position-hero--sub {
+        width: 85vw;
+    }
+}
