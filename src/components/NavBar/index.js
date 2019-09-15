@@ -19,7 +19,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item">
-              <strong style={{ color: "white" }}>INFLEET</strong>
+              <strong style={{ color: "white", fontSize: '2rem', fontWeight: 300, marginRight:'0.5rem' }}>INFLEET</strong>
             </Link>
             <button
               style={{ border: "none", backgroundColor: "transparent" }}
@@ -36,6 +36,37 @@ const NavBar = ({ toggleNavbar, isActive }) => (
             className={`navbar-menu ${isActive ? "is-active" : ""}`}
             id="navMenu"
           >
+            <div className="navbar-start">
+              
+              <Link
+                style={{ color: isActive ? "black" : "white" }}
+                className="navbar-item"
+                to="/about"
+              >
+                Roteirizador
+              </Link>
+              <Link
+                style={{ color: isActive ? "black" : "white" }}
+                className="navbar-item"
+                to="/about"
+              >
+                Monitoramento
+              </Link>
+              <Link
+                style={{ color: isActive ? "black" : "white" }}
+                className="navbar-item"
+                to="/about"
+              >
+                Manutenção
+              </Link>
+              <Link
+                style={{ color: isActive ? "black" : "white" }}
+                className="navbar-item"
+                to="/about"
+              >
+                Abastecimento
+              </Link>
+            </div>
             <div className="navbar-end">
               <Link
                 style={{ color: isActive ? "black" : "white" }}

@@ -1,9 +1,10 @@
 import React from "react";
 import Helmet from "react-helmet";
-import Img from "gatsby-image";
+import BackgroundImage from "gatsby-background-image";
 import Offerings from "../Offerings";
 import Testimonials from "../Testimonials";
-import PropTypes from "prop-types"; 
+import PropTypes from "prop-types";
+import { FaPlay } from "react-icons/fa";
 
 const HomePageTemplate = ({
   title,
@@ -15,27 +16,34 @@ const HomePageTemplate = ({
   testimonials,
   file
 }) => {
-  console.log("aas", file)
+  const image = file.childImageSharp.fluid;
   return (
     <div>
       <Helmet>
         <title>{meta_title}</title>
         <meta name="description" content={meta_description} />
       </Helmet>
-      <div className="position-section">
-        <section className="is-primary background-hero hero is-bold is-large">
+
+      <BackgroundImage Tag="div" fluid={image}>
+        <section className="background-hero hero is-bold is-large position-section">
           <div id="hero" className="hero-body">
             <div className="container">
-              <h1 className="title is-2 has-text-white position-hero">
-                {title}
-              </h1>
-              <h3 className="title is-4 has-text-grey-light position-hero--sub">
+              <h1 className="has-text-white position-hero">{title}</h1>
+              <h3 className="has-text-grey-light position-hero--sub">
                 O conceito de torre de controle logístico na sua empresa
               </h3>
+              <div className="">
+                <button className="button-test">Teste grátis</button>
+                <button className="button-video">
+                  <FaPlay style={{fontSize: '0.75rem', marginRight: '0.5rem'}} />
+                  Ver vídeo
+                </button>
+              </div>
             </div>
           </div>
         </section>
-      </div>
+      </BackgroundImage>
+
       <section className="section section--gradient">
         <div className="container">
           <div className="section">

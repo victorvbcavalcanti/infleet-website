@@ -1,34 +1,65 @@
 .background-hero {
-    background-color: #001132;
+  /* background-color: #001132; */
 }
 
 .navbar {
-    background-color: transparent !important;
+  background-color: transparent !important;
+  height: 4rem !important;
 }
 
 .position-section {
-    margin-top: -3.25rem;
+  margin-top: -3.25rem;
 }
 
 .position-hero {
-    margin-bottom: 1rem;
-    width: 30rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  width: 36rem;
 }
 
 .position-hero--sub {
-    width: 24rem;
+  width: 24rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.button-test {
+  background-color: #07b40e;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 3px rgba(#000, 0.1), 0 0 0 1px rgba(#000, 0.1);
+}
+
+.button-video {
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 700;
+  margin-right: 1rem;
+  padding: 1rem 1.5rem;
+  outline: none;
+  border: 1px solid #fff;
+  box-shadow: 0 2px 3px rgba(#000, 0.1), 0 0 0 1px rgba(#000, 0.1);
 }
 
 @media (max-width: 768px) {
-    .position-hero {        
-        width: 85vw;    
-    }
+  .position-hero {
+    width: 85vw;
+  }
 
-    #hero {
-        padding: 9rem 1.25rem;
-    }
+  #hero {
+    padding: 9rem 1.25rem;
+  }
 
-    .position-hero--sub {
-        width: 85vw;
-    }
+  .position-hero--sub {
+    width: 85vw;
+  }
 }

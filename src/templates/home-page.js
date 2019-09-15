@@ -1,11 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {graphql} from 'gatsby'
-import HomePageTemplate from '../components/HomePageTemplate'
-import Layout from '../components/Layout'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import HomePageTemplate from "../components/HomePageTemplate";
+import Layout from "../components/Layout";
 
-const HomePage = ({data}) => {
-  const {frontmatter} = data.markdownRemark
+const HomePage = ({ data }) => {
+  const { frontmatter } = data.markdownRemark;
+  const { file } = data;
 
   return (
     <Layout>
@@ -17,27 +18,28 @@ const HomePage = ({data}) => {
         description={frontmatter.description}
         offerings={frontmatter.offerings}
         testimonials={frontmatter.testimonials}
+        file={file}
       />
     </Layout>
-  )
-}
+  );
+};
 
 HomePage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default HomePage
+export default HomePage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
-    file(relativePath: { eq: "truck.png" }) {
+    file(relativePath: { eq: "background.png" }) {
       childImageSharp {
-        fixed(width: 125, height: 125) {
-          ...GatsbyImageSharpFixed
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -61,4 +63,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
