@@ -35,7 +35,9 @@ const HomePageTemplate = ({
               <div className="">
                 <button className="button-test">Teste grátis</button>
                 <button className="button-video">
-                  <FaPlay style={{fontSize: '0.75rem', marginRight: '0.5rem'}} />
+                  <FaPlay
+                    style={{ fontSize: "0.75rem", marginRight: "0.5rem" }}
+                  />
                   Ver vídeo
                 </button>
               </div>
@@ -43,6 +45,20 @@ const HomePageTemplate = ({
           </div>
         </section>
       </BackgroundImage>
+
+      <div style={{ marginBottom: "4rem" }} className="columns is-centered">
+        <div
+          style={{ padding: "0.05rem" }}
+          className="column is-1 separator"
+        ></div>
+      </div>
+      <div className="columns is-centered">
+        <div className="column is-2 has-text-centered">Imagem</div>
+        <div className="column is-2 has-text-centered">Imagem</div>
+        <div className="column is-2 has-text-centered">Imagem</div>
+        <div className="column is-2 has-text-centered">Imagem</div>
+        <div className="column is-2 has-text-centered">Imagem</div>
+      </div>
 
       <section className="section section--gradient">
         <div className="container">

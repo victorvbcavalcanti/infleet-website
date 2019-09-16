@@ -1,14 +1,6 @@
-.background-hero {
-  /* background-color: #001132; */
-}
-
-.navbar {
-  background-color: transparent !important;
-  height: 4rem !important;
-}
-
 .position-section {
   margin-top: -3.25rem;
+  margin-bottom: 5rem;
 }
 
 .position-hero {
@@ -31,7 +23,7 @@
   color: #fff;
   margin-right: 1rem;
   margin-bottom: 1rem;
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.65rem;
   outline: none;
   border: none;
   box-shadow: 0 2px 3px rgba(#000, 0.1), 0 0 0 1px rgba(#000, 0.1);
@@ -50,16 +42,22 @@
   box-shadow: 0 2px 3px rgba(#000, 0.1), 0 0 0 1px rgba(#000, 0.1);
 }
 
+.separator {
+  background-color: rgb(219, 219, 219);
+}
+
 @media (max-width: 768px) {
   .position-hero {
     width: 85vw;
-  }
-
-  #hero {
-    padding: 9rem 1.25rem;
+    font-size: 2rem;
   }
 
   .position-hero--sub {
     width: 85vw;
+    font-size: 1rem;
+  }
+
+  #hero {
+    padding: 9rem 1.25rem;
   }
 }
