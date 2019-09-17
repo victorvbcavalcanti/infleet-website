@@ -46,6 +46,11 @@
   background-color: rgb(219, 219, 219);
 }
 
+#hero {
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+}
+
 @media (max-width: 768px) {
   .position-hero {
     width: 85vw;

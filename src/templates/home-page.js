@@ -43,7 +43,7 @@ export const pageQuery = graphql`
   query IndexPage($id: String!) {
     background: file(relativePath: { eq: "background.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1920, maxHeight: 892) {
+        fluid(maxWidth: 1440, maxHeight: 600) {
           ...GatsbyImageSharpFluid
         }
       }
