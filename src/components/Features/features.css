@@ -1,33 +1,40 @@
 .features-section {
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
 
 .feature {
-    margin-top: 15rem;
+  margin-top: 15rem;
 }
 
 .feature-title {
-    padding-left: 1.5rem;
-    border-left: 4px solid #001132;
+  padding-left: 1.5rem;
+  border-left: 4px solid #001132;
 }
 
 .feature-description {
-    margin-top: 1rem;
-    padding-left: 1.75rem;
-    padding-right: 10rem;
+  margin-top: 1rem;
+  padding-left: 1.75rem;
+  padding-right: 10rem;
 }
 
 .feature-items {
-    margin-top: 1rem;
-    padding-left: 1.75rem;
+  margin-top: 1rem;
+  padding-left: 1.75rem;
 }
 
 .feature-list li {
-    line-height: 2.25rem;
-    vertical-align: middle;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  vertical-align: middle;
 }
 
 .feature-icon {
-    margin-right: 0.5rem;
-    color: #68B51D;
+  margin-right: 0.5rem;
+  color: #68b51d;
+}
+
+@media (max-width: 768px) {
+  .feature-description {
+    padding-right: 0rem;
+  }
 }

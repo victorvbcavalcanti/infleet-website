@@ -5,7 +5,7 @@ export default function index() {
   const settings = {
     dots: false,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 5000,
     infinite: true,
     speed: 500,
