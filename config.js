@@ -4,7 +4,7 @@ module.exports = {
   siteLogo: '/icons/logo-infleet-512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://modest-mclean-f8f79d.netlify.com/', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
-  siteDescription: 'Gestão logística e tecnologia para frotas', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'Tecnologia de ponta para frotas', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: '', // GTM tracking ID.

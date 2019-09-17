@@ -3,7 +3,7 @@
 }
 
 .feature {
-    margin-top: 4rem;
+    margin-top: 6rem;
 }
 
 .feature-title {
@@ -11,8 +11,23 @@
     border-left: 4px solid #001132;
 }
 
-.feature-text {
+.feature-description {
     margin-top: 1rem;
-    padding-left: 1.5rem;
+    padding-left: 1.75rem;
     padding-right: 10rem;
+}
+
+.feature-items {
+    margin-top: 1rem;
+    padding-left: 1.75rem;
+}
+
+.feature-list li {
+    line-height: 2.25rem;
+    vertical-align: middle;
+}
+
+.feature-icon {
+    margin-right: 0.5rem;
+    color: #68B51D;
 }

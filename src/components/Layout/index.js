@@ -18,7 +18,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <div style={{ height: "2800px" }}>
+      <div style={{ height: "4000px" }}>
         <Fragment>
           <Helmet>
             <title>{config.siteTitle}</title>
