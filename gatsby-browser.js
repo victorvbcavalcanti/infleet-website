@@ -1,5 +1,6 @@
 import "./src/components/NavBar/navbar.css";
-import "./src/components/HomePageTemplate/hero.css";
+import "./src/components/Hero/hero.css";
+import "./src/components/Products/products.css";
 
 // ES5 way
 // exports.onClientEntry = () => {

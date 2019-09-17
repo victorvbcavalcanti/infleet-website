@@ -1,0 +1,24 @@
+.sub-heading-container {
+    padding-right: 30rem;
+    padding-left: 30rem;
+}
+
+.products-container {
+    margin-top: 5rem;
+}
+
+.product {
+    border: 1px solid #AAA;
+    padding: 2rem;
+    box-shadow: 2px 2px 2.5px grey;
+    height: 20rem;
+    width: 14rem;
+}
+
+.product-text {
+    margin-top: 1rem;
+}
+
+.columns .is-3 {
+    margin-right: 5rem;
+}
