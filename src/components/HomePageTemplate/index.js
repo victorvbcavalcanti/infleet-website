@@ -40,6 +40,48 @@ const HomePageTemplate = ({
       />
 
       <Products />
+
+      <div className="features-section">
+        <div className="container">
+          <div className="feature">
+            <div className="columns">
+              <div className="column is-half">
+                <div className="has-text-centered">Imagem</div>
+              </div>
+              <div className="column is-half is-mobile">
+                <div className="feature-title">
+                  <h3 className="is-size-3">Roteirizador</h3>
+                  <h4 className="is-size-5">
+                    Perfeito para otimização de processos
+                  </h4>
+                </div>
+                <div className="feature-text">
+                  <p>
+                    Garanta a melhor roteirização para sua operação com as
+                    funcionalidades do nosso algoritmo personalizado
+                  </p>
+                  <div className="columns is-mobile">
+                    <div className="column is-half">
+                      <ul>
+                        <li>Previsão de custos das rotas</li>
+                        <li>Previsão de custos das rotas</li>
+                        <li>Previsão de custos das rotas</li>
+                      </ul>
+                    </div>
+                    <div className="column is-half">
+                      <ul>
+                        <li>Previsão de custos das rotas</li>
+                        <li>Previsão de custos das rotas</li>
+                        <li>Previsão de custos das rotas</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

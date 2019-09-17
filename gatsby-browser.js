@@ -1,6 +1,7 @@
 import "./src/components/NavBar/navbar.css";
 import "./src/components/Hero/hero.css";
 import "./src/components/Products/products.css";
+import "./src/components/Features/features.css";
 
 // ES5 way
 // exports.onClientEntry = () => {
