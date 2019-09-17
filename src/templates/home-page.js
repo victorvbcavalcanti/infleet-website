@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 
 const HomePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  const { file } = data;
+  const { background, crea, inovativa, renault, senai, vale } = data;
 
   return (
     <Layout>
@@ -18,7 +18,12 @@ const HomePage = ({ data }) => {
         description={frontmatter.description}
         offerings={frontmatter.offerings}
         testimonials={frontmatter.testimonials}
-        file={file}
+        background={background}
+        crea={crea}
+        inovativa={inovativa}
+        renault={renault}
+        senai={senai}
+        vale={vale}
       />
     </Layout>
   );
@@ -36,7 +41,42 @@ export default HomePage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
-    file(relativePath: { eq: "background.png" }) {
+    background: file(relativePath: { eq: "background.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    crea: file(relativePath: { eq: "crea.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    inovativa: file(relativePath: { eq: "inovativa.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    renault: file(relativePath: { eq: "renault.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    senai: file(relativePath: { eq: "senai.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    vale: file(relativePath: { eq: "vale.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
