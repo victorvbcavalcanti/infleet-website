@@ -40,7 +40,7 @@ export default function index() {
               </div>
             </div>
             <div className="column is-one-quarter-desktop is-half-tablet">
-              <div>
+              <div className="mobile-padding">
                 <div className="product">
                   <div>Imagem</div>
                   <h4 className="is-size-5 product-text">
@@ -54,7 +54,7 @@ export default function index() {
               </div>
             </div>
             <div className="column is-one-quarter-desktop is-half-tablet">
-              <div>
+              <div className="mobile-padding">
                 <div className="product">
                   <div>Imagem</div>
                   <h4 className="is-size-5 product-text">
@@ -68,7 +68,7 @@ export default function index() {
               </div>
             </div>
             <div className="column is-one-quarter-desktop is-half-tablet">
-              <div>
+              <div className="mobile-padding">
                 <div className="product">
                   <div>Imagem</div>
                   <h4 className="is-size-5 product-text">
