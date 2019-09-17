@@ -5,6 +5,10 @@ import PropTypes from "prop-types";
 
 import Hero from "../Hero/";
 import Products from "../Products/";
+import Maintenance from "../Features/maintenance";
+import Fuelling from "../Features/fuelling";
+import Monitoring from "../Features/monitoring";
+import Router from "../Features/router";
 
 const HomePageTemplate = ({
   title,
@@ -44,221 +48,13 @@ const HomePageTemplate = ({
 
       <div className="features-section">
         <div className="container">
-          <div className="feature">
-            <div className="columns">
-              <div className="column is-half">
-                <div className="has-text-centered">Imagem</div>
-              </div>
-              <div className="column is-half is-mobile">
-                <div className="feature-title">
-                  <h3 className="is-size-3">Roteirizador</h3>
-                  <h4 className="is-size-5">
-                    Perfeito para otimização de processos
-                  </h4>
-                </div>
-                <div className="feature-description">
-                  <p>
-                    Garanta a melhor roteirização para sua operação com as
-                    funcionalidades do nosso algoritmo personalizado
-                  </p>
-                </div>
-                <div className="feature-items">
-                  <div className="columns is-mobile">
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Previsão de custos das rotas
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Roteirização automatizada
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Redução de consumo do combustível
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Redução de custo com manutenção
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Controle de carga em cada viagem
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Router />
 
-          <div className="feature">
-            <div className="columns ">
-              <div className="column is-half is-mobile">
-                <div className="feature-title">
-                  <h3 className="is-size-3">Monitoramento</h3>
-                  <h4 className="is-size-5">
-                    Tenha um maior controle da sua operação
-                  </h4>
-                </div>
-                <div className="feature-description">
-                  <p>
-                    Acompanhe a localização da sua frota em tempo real e
-                    consulte relatórios de eficiência do seu negócio
-                  </p>
-                </div>
-                <div className="feature-items">
-                  <div className="columns is-mobile">
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Limite de velocidade
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Pontos de parada
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Horas ligado + Horas ligado e parado
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Cercas virtuais
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Alertas de manutenção
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column is-half">
-                <div className="has-text-centered">Imagem</div>
-              </div>
-            </div>
-          </div>
+          <Monitoring />
 
-          <div className="feature">
-            <div className="columns">
-              <div className="column is-half">
-                <div className="has-text-centered">Imagem</div>
-              </div>
-              <div className="column is-half is-mobile">
-                <div className="feature-title">
-                  <h3 className="is-size-3">Gestão da Manutenção</h3>
-                  <h4 className="is-size-5">
-                    Maior controle de custos da sua operação logística
-                  </h4>
-                </div>
-                <div className="feature-description">
-                  <p>
-                    Realize o controle das manutenções corretivas e preventivas
-                    dos seus veículos e equipamentos para otimizar seus custos
-                  </p>
-                </div>
-                <div className="feature-items">
-                  <div className="columns is-mobile">
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Plano de manutenções preventivas
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Registo de ordens de serviço
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Histórico de manutenções
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Controle de custos
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Indicadores de manutenção
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Maintenance />
 
-          <div className="feature">
-            <div className="columns ">
-              <div className="column is-half is-mobile">
-                <div className="feature-title">
-                  <h3 className="is-size-3">Gestão de Abastecimento</h3>
-                  <h4 className="is-size-5">
-                    Tenha um maior controle da sua operação
-                  </h4>
-                </div>
-                <div className="feature-description">
-                  <p>
-                    Realize o controle de abastecimentos dos seus veículos e
-                    equipamentos para gerir os seus gastos com combustível
-                  </p>
-                </div>
-                <div className="feature-items">
-                  <div className="columns is-mobile">
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Lançamento de abastecimentos via App
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Histórico de abastecimentos
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Cálculo de autonomia
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="column is-half">
-                      <ul className="feature-list">
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Dashboard interativo
-                        </li>
-                        <li>
-                          <FaCheck className="feature-icon" />
-                          Controle de estoque para postos internos
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="column is-half">
-                <div className="has-text-centered">Imagem</div>
-              </div>
-            </div>
-          </div>
+          <Fuelling />
         </div>
       </div>
     </div>
