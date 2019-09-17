@@ -4,7 +4,7 @@ import { FaCheck } from "react-icons/fa";
 export default function router() {
   return (
     <div className="">
-      <div className="columns">
+      <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div>
             <div className="has-text-centered">Imagem</div>

@@ -37,4 +37,9 @@
   .feature-description {
     padding-right: 0rem;
   }
+
+  .invertMobile {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
 }
