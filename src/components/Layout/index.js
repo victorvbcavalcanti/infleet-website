@@ -3,7 +3,6 @@ import Helmet from "react-helmet";
 import "../../assets/sass/styles.sass";
 import config from "../../../config";
 import NavBar from "../NavBar";
-import Footer from "../Footer";
 
 class Layout extends Component {
   constructor(props) {
@@ -18,7 +17,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <div style={{ height: "4000px" }}>
+      <div style={{ height: "4800px" }}>
         <Fragment>
           <Helmet>
             <title>{config.siteTitle}</title>

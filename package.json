@@ -48,6 +48,8 @@
     "react-helmet": "^5.2.0",
     "react-icons": "^3.7.0",
     "react-share": "^2.4.0",
+    "react-slick": "^0.25.2",
+    "slick-carousel": "^1.8.1",
     "uglifyjs-webpack-plugin": "^2.1.1"
   },
   "remarkConfig": {

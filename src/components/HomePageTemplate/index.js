@@ -5,10 +5,11 @@ import PropTypes from "prop-types";
 
 import Hero from "../Hero/";
 import Products from "../Products/";
+import Router from "../Features/router";
+import Monitoring from "../Features/monitoring";
 import Maintenance from "../Features/maintenance";
 import Fuelling from "../Features/fuelling";
-import Monitoring from "../Features/monitoring";
-import Router from "../Features/router";
+import Testimonials from "../Testimonials/";
 
 const HomePageTemplate = ({
   title,
@@ -46,17 +47,16 @@ const HomePageTemplate = ({
 
       <Products />
 
-      <div className="features-section">
+      <section className="features-section">
         <div className="container">
           <Router />
-
           <Monitoring />
-
           <Maintenance />
-
           <Fuelling />
         </div>
-      </div>
+      </section>
+
+      <Testimonials />
     </div>
   );
 };

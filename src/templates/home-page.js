@@ -88,18 +88,6 @@ export const pageQuery = graphql`
         title
         meta_title
         meta_description
-        heading
-        description
-        offerings {
-          blurbs {
-            image
-            text
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
       }
     }
   }
