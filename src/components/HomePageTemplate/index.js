@@ -12,7 +12,6 @@ import Fuelling from "../Features/fuelling";
 import Testimonials from "../Testimonials/";
 
 const HomePageTemplate = ({
-  title,
   meta_title,
   meta_description,
   background,

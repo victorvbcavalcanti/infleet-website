@@ -1,12 +1,10 @@
 .sub-heading-container {
-  padding-right: 18rem;
-  padding-left: 18rem;
+  padding-right: 7rem;
+  padding-left: 7rem;
 }
 
 .products-container {
   margin-top: 5rem;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .product {
@@ -14,7 +12,6 @@
   padding: 2rem;
   box-shadow: 2px 2px 2.5px grey;
   height: 20rem;
-  /* width: 14rem; */
 }
 
 .product-text {

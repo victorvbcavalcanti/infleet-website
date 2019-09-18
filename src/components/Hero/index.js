@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-
+import { Container, Row, Col } from "react-grid-system";
 import Img from "gatsby-image";
 import BackgroundImage from "gatsby-background-image";
 import { FaPlay } from "react-icons/fa";
@@ -18,7 +18,9 @@ export default function index({
         <section className="background-hero hero is-bold is-large position-section">
           <div id="hero" className="hero-body">
             <div className="container">
-              <h1 className="has-text-white position-hero">Fornecemos tecnologia de ponta para a sua frota.</h1>
+              <h1 className="has-text-white position-hero">
+                Fornecemos tecnologia de ponta para a sua frota.
+              </h1>
               <h3 className="has-text-grey-light position-hero--sub">
                 O conceito de torre de controle logístico na sua empresa
               </h3>
@@ -43,25 +45,30 @@ export default function index({
         ></div>
       </div>
 
-      <div className="container">
-        <div className="columns is-centered is-mobile">
-          <div className="column is-2 has-text-centered">
-            <Img fluid={vale} alt="Vale do Dendê" />
-          </div>
-          <div className="column is-2 has-text-centered">
-            <Img fluid={inovativa} alt="Inovativa" />
-          </div>
-          <div className="column is-2 has-text-centered">
-            <Img fluid={senai} alt="Senai" />
-          </div>
-          <div className="column is-2 has-text-centered">
-            <Img fluid={renault} alt="Renault"></Img>
-          </div>
-          <div className="column is-2 has-text-centered">
-            <Img fluid={crea} alt="Crea"></Img>
-          </div>
-        </div>
-      </div>
+      <Container>
+        <Row>
+          <Col xs={6} sm={6} md={3} lg={3}>
+            <div className="partner-image">
+              <Img fluid={crea} alt="Vale do Dendê" />
+            </div>
+          </Col>
+          <Col xs={6} sm={6} md={3} lg={3}>
+            <div className="partner-image">
+              <Img fluid={senai} alt="Vale do Dendê" />
+            </div>
+          </Col>
+          <Col xs={6} md={3} lg={3}>
+            <div className="partner-image">
+              <Img fluid={renault} alt="Vale do Dendê" />
+            </div>
+          </Col>
+          <Col xs={6} md={3} lg={3}>
+            <div className="partner-image">
+              <Img fluid={inovativa} alt="Vale do Dendê" />
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </Fragment>
   );
 }

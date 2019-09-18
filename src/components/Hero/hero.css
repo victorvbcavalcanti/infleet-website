@@ -65,4 +65,25 @@
   #hero {
     padding: 9rem 1.25rem;
   }
+
+  .partner-image {
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .partner-image {
+    height:10rem;
+    width: 10rem;
+    margin: 0 auto
+  }
+}
+
+@media (min-width: 1441px) {
+  #hero {
+    padding-bottom: 15rem;
+    padding-top: 15rem;
+  }
 }

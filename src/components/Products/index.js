@@ -3,23 +3,25 @@ import React, { Fragment } from "react";
 export default function index() {
   return (
     <Fragment>
-      <div className="has-text-centered">
-        <br />
-        <h1 className="is-size-1 is-size-2-mobile">Nossas soluções</h1>
-        <br />
-        <div className="sub-heading-container">
-          <h2 className="is-size-4 is-size-5-tablet is-size-5-mobile">
-            Alinhadas com o conceito de Torre de Controle logístico, fornecemos
-            ferramentas capazes de{" "}
-            <span className="is-size-3 is-size-4-mobile">
-              <strong>economizar</strong>
-            </span>{" "}
-            seu tempo e{" "}
-            <span className="is-size-3 is-size-4-mobile">
-              <strong>otimizar</strong>
-            </span>{" "}
-            sua operação
-          </h2>
+      <div className="container">
+        <div className="has-text-centered">
+          <br />
+          <h1 className="is-size-1 is-size-2-mobile">Nossas soluções</h1>
+          <br />
+          <div className="sub-heading-container">
+            <h2 className="is-size-4 is-size-5-tablet is-size-5-mobile">
+              Alinhadas com o conceito de Torre de Controle logístico,
+              fornecemos ferramentas capazes de{" "}
+              <span className="is-size-3 is-size-4-mobile">
+                <strong>economizar</strong>
+              </span>{" "}
+              seu tempo e{" "}
+              <span className="is-size-3 is-size-4-mobile">
+                <strong>otimizar</strong>
+              </span>{" "}
+              sua operação
+            </h2>
+          </div>
         </div>
       </div>
       <div className="products-container">
