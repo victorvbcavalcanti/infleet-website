@@ -47,7 +47,11 @@ const NavBar = ({ toggleNavbar, isActive }) => {
                 </strong>
               </Link>
               <button
-                style={{ border: "none", backgroundColor: "transparent" }}
+                style={{
+                  border: "none",
+                  backgroundColor: "transparent",
+                  marginTop: "0.5rem"
+                }}
                 className={`button navbar-burger ${
                   isActive ? "is-active" : ""
                 }`}

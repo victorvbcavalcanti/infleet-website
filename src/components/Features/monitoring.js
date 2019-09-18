@@ -20,7 +20,7 @@ export default function monitoring() {
               </p>
             </div>
             <div className="feature-items">
-              <div className="columns is-mobile">
+              <div className="columns is-mobile is-variable is-0">
                 <div className="column is-half">
                   <ul className="feature-list">
                     <li>

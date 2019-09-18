@@ -25,7 +25,7 @@ export default function router() {
               </p>
             </div>
             <div className="feature-items">
-              <div className="columns is-mobile">
+              <div className="columns is-mobile is-variable is-0">
                 <div className="column is-half">
                   <ul className="feature-list">
                     <li>
@@ -34,7 +34,7 @@ export default function router() {
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Rotas automatizadas
+                      Roteiros automatizados
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />

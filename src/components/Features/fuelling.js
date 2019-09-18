@@ -20,16 +20,16 @@ export default function fuelling() {
               </p>
             </div>
             <div className="feature-items">
-              <div className="columns is-mobile">
+              <div className="columns is-mobile is-1 is-variable">
                 <div className="column is-half">
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />
-                      Lançamento de abastecimentos via App
+                      Lançamento de abastecimentos pelo App
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Histórico de abastecimentos
+                      Registro de abastecimento
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
