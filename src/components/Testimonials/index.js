@@ -16,7 +16,7 @@ export default function index() {
     <section className="testimonial-section">
       <div className="container mobile-container">
         <div className="has-text-centered">
-          <h1 className="is-size-2 is-size-3-mobile">
+          <h1 className="is-size-2 is-size-3-mobile has-text-primary">
             Uma relação baseada em{" "}
             <span className="has-text-weight-bold is-size-1 is-size-2-mobile">confiança.</span>
           </h1>

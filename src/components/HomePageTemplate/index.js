@@ -10,6 +10,8 @@ import Maintenance from "../Features/maintenance";
 import Fuelling from "../Features/fuelling";
 import Testimonials from "../Testimonials/";
 import Partners from "../Partners/";
+import Indicators from "../Indicators/";
+import Press from "../Press/";
 
 const HomePageTemplate = ({
   meta_title,
@@ -58,6 +60,12 @@ const HomePageTemplate = ({
       <Testimonials />
 
       <Partners />
+
+      <Indicators />
+
+      <Press />
+
+      {/* <Blog /> */}
     </div>
   );
 };

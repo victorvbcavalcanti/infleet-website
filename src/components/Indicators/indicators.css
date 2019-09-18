@@ -1,0 +1,22 @@
+.indicators-section {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-color: transparent;
+  background-image: radial-gradient(
+    302.73% 302.73% at 50% 50%,
+    #001132 0%,
+    rgba(0, 17, 50, 0) 100%
+  );
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .indicators-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .level-item {
+      margin-bottom: 1.5rem !important;
+  }
+}

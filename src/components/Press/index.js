@@ -4,11 +4,11 @@ import { Container, Row, Col } from "react-grid-system";
 
 export default function index() {
   return (
-    <section className="partners-section">
+    <section className="press-section">
       <h1 className="is-size-2 is-size-3-mobile has-text-centered has-text-primary">
-        Empresas que confiam
+        Quem já falou da gente
       </h1>
-      <div style={{marginTop: '3rem'}}>
+      <div style={{ marginTop: "3rem" }}>
         <Container>
           <Row>
             <Col xs={6} sm={6} md={3} lg={3}>
