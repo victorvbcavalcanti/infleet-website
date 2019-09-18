@@ -1,6 +1,5 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { FaCheck } from "react-icons/fa";
 import PropTypes from "prop-types";
 
 import Hero from "../Hero/";
@@ -10,6 +9,7 @@ import Monitoring from "../Features/monitoring";
 import Maintenance from "../Features/maintenance";
 import Fuelling from "../Features/fuelling";
 import Testimonials from "../Testimonials/";
+import Partners from "../Partners/";
 
 const HomePageTemplate = ({
   meta_title,
@@ -56,6 +56,8 @@ const HomePageTemplate = ({
       </section>
 
       <Testimonials />
+
+      <Partners />
     </div>
   );
 };
