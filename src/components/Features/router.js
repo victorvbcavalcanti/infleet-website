@@ -6,12 +6,12 @@ export default function router() {
     <div className="">
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
-          <div>
+          <div className="mobile-container">
             <div className="has-text-centered">Imagem</div>
           </div>
         </div>
         <div className="column is-half">
-          <div>
+          <div className="mobile-container">
             <div className="feature-title">
               <h3 className="is-size-3">Roteirizador</h3>
               <h4 className="is-size-5">
@@ -34,7 +34,7 @@ export default function router() {
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Roteirização automatizada
+                      Rotas automatizadas
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />

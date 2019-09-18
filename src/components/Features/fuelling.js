@@ -6,7 +6,7 @@ export default function fuelling() {
     <div className="feature">
       <div className="columns is-multiline is-variable is-6 invertMobile">
         <div className="column is-half is-mobile">
-          <div>
+          <div className="mobile-container">
             <div className="feature-title">
               <h3 className="is-size-3">Gestão de Abastecimento</h3>
               <h4 className="is-size-5">
@@ -54,7 +54,7 @@ export default function fuelling() {
           </div>
         </div>
         <div className="column is-half">
-          <div>
+          <div className="mobile-container">
             <div className="has-text-centered">Imagem</div>
           </div>
         </div>

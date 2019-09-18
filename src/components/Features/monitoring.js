@@ -6,7 +6,7 @@ export default function monitoring() {
     <div className="feature">
       <div className="columns is-multiline is-variable is-6 invertMobile">
         <div className="column is-half">
-          <div>
+          <div className="mobile-container">
             <div className="feature-title">
               <h3 className="is-size-3">Monitoramento</h3>
               <h4 className="is-size-5">
@@ -54,7 +54,7 @@ export default function monitoring() {
           </div>
         </div>
         <div className="column is-half">
-          <div>
+          <div className="mobile-container">
             <div className="has-text-centered">Imagem</div>
           </div>
         </div>
