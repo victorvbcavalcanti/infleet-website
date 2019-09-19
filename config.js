@@ -14,6 +14,6 @@ module.exports = {
   userLocation: 'Salvador, Bahia, Brazil',
   userDescription: '',
   copyright: 'Copyright © INFLEET | Tecnologia para frotas 2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
-  themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
+  themeColor: '#001132', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }
