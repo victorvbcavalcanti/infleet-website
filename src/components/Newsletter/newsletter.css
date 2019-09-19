@@ -15,9 +15,9 @@
 }
 
 .input-container {
-  padding-left: 30rem;
-  padding-right: 30rem;
-  margin-top: 2rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 1024px) {
@@ -35,9 +35,9 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1441px) {
   .input-container {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 }

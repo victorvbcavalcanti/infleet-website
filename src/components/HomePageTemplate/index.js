@@ -14,6 +14,7 @@ import Indicators from "../Indicators/";
 import Press from "../Press/";
 import BlogList from "../BlogList/";
 import Newsletter from "../Newsletter/";
+import ContactForm from "../ContactForm/";
 
 const HomePageTemplate = ({
   meta_title,
@@ -70,6 +71,8 @@ const HomePageTemplate = ({
       <BlogList />
 
       <Newsletter />
+
+      <ContactForm />
     </div>
   );
 };

@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from "react";
-import { useWindowSize } from './useWindowSize'
+import { useWindowSize } from "./useWindowSize";
 
 export default function index() {
   const size = useWindowSize();
 
+  const [input, setInput] = useState("");
+
   const hasAddon = size.width <= 1024 ? " " : "has-addons";
+
+  const inputClass = size.width <= 425 ? "is-medium" : "is-large";
 
   return (
     <section className="newsletter-section">
@@ -19,13 +23,14 @@ export default function index() {
         <div className={`field ${hasAddon}`}>
           <div className="control is-expanded">
             <input
-              className="input is-large"
+              onChange={e => setInput(e.target.value)}
+              className={`input ${inputClass}`}
               type="text"
               placeholder="Insira seu e-mail"
             />
           </div>
           <div className="control">
-            <button className="button is-success is-large newsletter-button">
+            <button className={`button is-success is-large newsletter-button`}>
               Inscrever
             </button>
           </div>
