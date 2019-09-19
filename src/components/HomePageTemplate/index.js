@@ -12,6 +12,8 @@ import Testimonials from "../Testimonials/";
 import Partners from "../Partners/";
 import Indicators from "../Indicators/";
 import Press from "../Press/";
+import BlogList from "../BlogList/";
+import Newsletter from "../Newsletter/";
 
 const HomePageTemplate = ({
   meta_title,
@@ -65,7 +67,9 @@ const HomePageTemplate = ({
 
       <Press />
 
-      {/* <Blog /> */}
+      <BlogList />
+
+      <Newsletter />
     </div>
   );
 };

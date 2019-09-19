@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
 import logo from "../../assets/img/logo.png";
+import { Location } from "@reach/router";
 
-const NavBar = ({ toggleNavbar, isActive }) => {
+const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
   const [className, setClassName] = useState("top");
 
   useEffect(() => {
@@ -14,9 +15,9 @@ const NavBar = ({ toggleNavbar, isActive }) => {
       }
       setClassName(activeClass);
     });
-    // return () => {
-    //   window.removeEventListener("scroll", () => console.log('desmontou'));
-    // };
+    return () => {
+      window.removeEventListener("scroll", () => console.log("desmontou"));
+    };
   });
 
   return (
@@ -37,99 +38,98 @@ const NavBar = ({ toggleNavbar, isActive }) => {
       `}
       render={data => {
         const logo = data.logo.childImageSharp.fixed;
-        console.log(logo);
+        let finalClassName = className;
         return (
-          <nav
-            className={`navbar is-fixed-top ${className}`}
-            aria-label="main navigation"
-          >
-            <div className="container">
-              <div className="navbar-brand">
-                {/* <Link to="/" className="navbar-item">
-                  <strong
-                    style={{
-                      color: "white",
-                      fontSize: "2rem",
-                      fontWeight: 300,
-                      marginRight: "0.5rem"
-                    }}
-                  >
-                    INFLEET
-                  </strong>
-                </Link> */}
-                <div style={{padding: '1rem'}}>
-                  <Img fixed={logo} alt="Infleet" />
-                </div>
-                <button
-                  style={{
-                    border: "none",
-                    backgroundColor: "transparent",
-                    marginTop: "0.5rem"
-                  }}
-                  className={`button navbar-burger ${
-                    isActive ? "is-active" : ""
-                  }`}
-                  data-target="navMenu"
-                  onClick={toggleNavbar}
+          <Location>
+            {({ location }) => {
+              const isBlogArticle = location.href.split("/blog/");
+              if (isBlogArticle[1] !== undefined) {
+                finalClassName = "normal";
+              }
+
+              return (
+                <nav
+                  className={`navbar is-fixed-top ${finalClassName}`}
+                  aria-label="main navigation"
                 >
-                  <span style={{ color: "white" }} />
-                  <span style={{ color: "white" }} />
-                  <span style={{ color: "white" }} />
-                </button>
-              </div>
-              <div
-                className={`navbar-menu ${isActive ? "is-active" : ""}`}
-                id="navMenu"
-              >
-                <div className="navbar-start">
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/about"
-                  >
-                    Roteirizador
-                  </Link>
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/about"
-                  >
-                    Monitoramento
-                  </Link>
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/about"
-                  >
-                    Manutenção
-                  </Link>
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/about"
-                  >
-                    Abastecimento
-                  </Link>
-                </div>
-                <div className="navbar-end">
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/about"
-                  >
-                    Contato
-                  </Link>
-                  <Link
-                    style={{ color: isActive ? "black" : "white" }}
-                    className="navbar-item"
-                    to="/blog"
-                  >
-                    Blog
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </nav>
+                  <div className="container">
+                    <div className="navbar-brand">
+                      <div style={{ padding: "1rem" }}>
+                        <Img fixed={logo} alt="Infleet" />
+                      </div>
+                      <button
+                        style={{
+                          border: "none",
+                          backgroundColor: "transparent",
+                          marginTop: "0.5rem"
+                        }}
+                        className={`button navbar-burger ${
+                          isActive ? "is-active" : ""
+                        }`}
+                        data-target="navMenu"
+                        onClick={toggleNavbar}
+                      >
+                        <span style={{ color: "white" }} />
+                        <span style={{ color: "white" }} />
+                        <span style={{ color: "white" }} />
+                      </button>
+                    </div>
+                    <div
+                      className={`navbar-menu ${isActive ? "is-active" : ""}`}
+                      id="navMenu"
+                    >
+                      <div className="navbar-start">
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/about"
+                        >
+                          Roteirizador
+                        </Link>
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/about"
+                        >
+                          Monitoramento
+                        </Link>
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/about"
+                        >
+                          Manutenção
+                        </Link>
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/about"
+                        >
+                          Abastecimento
+                        </Link>
+                      </div>
+                      <div className="navbar-end">
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/about"
+                        >
+                          Contato
+                        </Link>
+                        <Link
+                          style={{ color: isActive ? "black" : "white" }}
+                          className="navbar-item"
+                          to="/blog"
+                        >
+                          Blog
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              );
+            }}
+          </Location>
         );
       }}
     />
