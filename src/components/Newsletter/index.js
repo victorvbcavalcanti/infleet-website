@@ -13,7 +13,7 @@ export default function index() {
       </h1>
       <p className="is-size-4 is-size-5-mobile has-text-grey-light">
         Receba dicas e conteúdos únicos preparados pela nossa equipe de
-        especialistas em logística
+        especialistas em logística!
       </p>
       <div className="input-container">
         <div className={`field ${hasAddon}`}>

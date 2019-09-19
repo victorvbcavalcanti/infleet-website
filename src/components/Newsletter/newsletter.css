@@ -4,11 +4,13 @@
   padding-top: 3rem;
   padding-bottom: 5rem;
   background-color: transparent;
-  background-image: radial-gradient(
-    302.73% 302.73% at 50% 50%,
-    #001132 0%,
-    rgba(0, 17, 50, 0) 100%
+  background: linear-gradient(
+    179.36deg,
+    #001132 -10.12%,
+    rgba(0, 17, 50, 0) 335.36%
   );
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
   color: #fff;
 }
 
