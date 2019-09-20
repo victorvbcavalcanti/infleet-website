@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Img from "gatsby-image";
-import logo from "../../assets/img/logo.png";
 import { Location } from "@reach/router";
 
 const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
@@ -54,9 +53,9 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                 >
                   <div className="container">
                     <div className="navbar-brand">
-                      <div style={{ padding: "1rem" }}>
+                      <Link style={{ padding: "1rem" }} to="/">
                         <Img fixed={logo} alt="Infleet" />
-                      </div>
+                      </Link>
                       <button
                         style={{
                           border: "none",
@@ -79,43 +78,43 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                       id="navMenu"
                     >
                       <div className="navbar-start">
-                        <Link
+                        <a
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"
-                          to="/about"
+                          // to="/about"
                         >
                           Roteirizador
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"
                           to="/about"
                         >
                           Monitoramento
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"
                           to="/about"
                         >
                           Manutenção
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"
                           to="/about"
                         >
                           Abastecimento
-                        </Link>
+                        </a>
                       </div>
                       <div className="navbar-end">
-                        <Link
+                        <a
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"
                           to="/about"
                         >
                           Contato
-                        </Link>
+                        </a>
                         <Link
                           style={{ color: isActive ? "black" : "white" }}
                           className="navbar-item"

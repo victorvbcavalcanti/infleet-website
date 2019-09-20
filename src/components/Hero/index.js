@@ -10,7 +10,8 @@ export default function index({
   crea,
   inovativa,
   renault,
-  senai
+  senai,
+  handleModal
 }) {
   return (
     <Fragment>
@@ -22,23 +23,31 @@ export default function index({
                 Fornecemos tecnologia de ponta para a sua frota.
               </h1>
               <h3 className="has-text-grey-light position-hero--sub">
-                O conceito de torre de controle logístico na sua empresa
+                Reduzimos seus custos e otimizamos sua operação logística.
               </h3>
               <div className="">
-                <button className="button-test">Teste grátis</button>
-                <button className="button-video">
+                <button
+                  onClick={() => handleModal(true)}
+                  className="button-test"
+                >
+                  Teste grátis
+                </button>
+                {/* <button className="button-video">
                   <FaPlay
                     style={{ fontSize: "0.75rem", marginRight: "0.5rem" }}
                   />
                   Ver vídeo
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
         </section>
       </BackgroundImage>
 
-      <div style={{ marginBottom: "4rem" }} className="columns is-centered">
+      <div
+        style={{ marginBottom: "4rem" }}
+        className="columns is-centered is-mobile"
+      >
         <div
           style={{ padding: "0.05rem" }}
           className="column is-1 separator"

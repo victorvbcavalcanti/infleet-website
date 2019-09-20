@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 
@@ -15,6 +15,7 @@ import Press from "../Press/";
 import BlogList from "../BlogList/";
 import Newsletter from "../Newsletter/";
 import ContactForm from "../ContactForm/";
+import TestModal from "../TestModal/";
 
 const HomePageTemplate = ({
   meta_title,
@@ -33,6 +34,8 @@ const HomePageTemplate = ({
   const renaultImage = renault.childImageSharp.fluid;
   const senaiImage = senai.childImageSharp.fluid;
 
+  const [isOpen, setModal] = useState(false)
+
   return (
     <div>
       <Helmet>
@@ -47,6 +50,7 @@ const HomePageTemplate = ({
         vale={valeImage}
         renault={renaultImage}
         senai={senaiImage}
+        handleModal={setModal}
       />
 
       <Products />
@@ -73,6 +77,8 @@ const HomePageTemplate = ({
       <Newsletter />
 
       <ContactForm />
+
+      <TestModal isOpen={isOpen} handleModal={setModal}/>
     </div>
   );
 };

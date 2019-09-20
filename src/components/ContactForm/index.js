@@ -74,10 +74,9 @@ export default function index() {
               </Row>
               <br />
               <button
-                style={{ backgroundColor: "orange", color: "#fff" }}
-                className="button is-medium is-fullwidth"
+                className="send"
               >
-                Enviar
+                ENVIAR
               </button>
             </Col>
             <Col xs={12} sm={6} md={6}>

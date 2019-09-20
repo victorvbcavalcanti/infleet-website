@@ -9,6 +9,7 @@ import "./src/components/Indicators/indicators.css";
 import "./src/components/BlogList/bloglist.css";
 import "./src/components/Newsletter/newsletter.css";
 import "./src/components/ContactForm/contactform.css";
+import "./src/components/TestModal/testmodal.css";
 import "./src/components/HomePageTemplate/utils.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
