@@ -38,6 +38,7 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
       render={data => {
         const logo = data.logo.childImageSharp.fixed;
         let finalClassName = className;
+        // Verification to pass production build
         if (typeof window !== `undefined`) {
           const isBlogArticle = window.location.href.split("/blog/");
           if (isBlogArticle[1] !== undefined) {
@@ -45,15 +46,6 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
           }
         }
         return (
-          // <Location>
-          //   {({ location }) => {
-          //     console.log(location.href)
-          // const isBlogArticle = location.href.split("/blog/");
-          // if (isBlogArticle[1] !== undefined) {
-          //   finalClassName = "normal";
-          // }
-
-          //     return (
           <nav
             className={`navbar is-fixed-top ${finalClassName}`}
             aria-label="main navigation"
@@ -133,9 +125,6 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
               </div>
             </div>
           </nav>
-          //     );
-          //   }}
-          // </Location>
         );
       }}
     />

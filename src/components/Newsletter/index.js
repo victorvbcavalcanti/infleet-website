@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { useWindowSize } from "./useWindowSize";
+// import { useWindowSize } from "./useWindowSize";
+import { Container, Row, Col } from "react-grid-system";
 
 export default function index() {
-  const size = useWindowSize();
 
   const [input, setInput] = useState("");
-
-  const hasAddon = size.width <= 1024 ? " " : "has-addons";
-
-  const inputClass = size.width <= 425 ? "is-medium" : "is-large";
 
   return (
     <section className="newsletter-section">
@@ -19,23 +15,30 @@ export default function index() {
         Receba dicas e conteúdos únicos preparados pela nossa equipe de
         especialistas em logística!
       </p>
-      <div className="input-container">
-        <div className={`field ${hasAddon}`}>
-          <div className="control is-expanded">
+      <Container style={{ marginTop: "2rem" }}>
+        <Row gutterWidth={8} justify="center">
+          <Col md={6}>
             <input
+              value={input}
               onChange={e => setInput(e.target.value)}
-              className={`input ${inputClass}`}
+              className="input is-large"
               type="text"
               placeholder="Insira seu e-mail"
             />
-          </div>
-          <div className="control">
-            <button className={`button is-success is-large newsletter-button`}>
-              Inscrever
-            </button>
-          </div>
-        </div>
-      </div>
+          </Col>
+          <br />
+          <Col md={2}>
+            <div className="">
+              <button
+                className="button is-success is-large newsletter-button"
+              >
+                Inscrever
+              </button>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }
+

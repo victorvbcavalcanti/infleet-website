@@ -3,3 +3,9 @@
     max-width: 1024px !important;
   }
 }
+
+@media screen and (max-width: 769px) {
+  .modal-content {
+    width: 100% !important;
+  }
+}

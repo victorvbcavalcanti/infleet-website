@@ -59,12 +59,6 @@
   margin-right: 0.5rem;
 }
 
-@media screen and (max-width: 769px) {
-  .modal-content {
-    width: 100% !important;
-  }
-}
-
 @media (max-width: 768px) {
   .border-right {
     margin-bottom: 3rem;
