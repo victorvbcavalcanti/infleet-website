@@ -1,9 +1,9 @@
 ---
 templateKey: article-page
-title: Teste
+title: Teste!!
 slug: testando blog
 date: 2019-09-23T03:12:11.102Z
-cover: /img/produtos.png
+cover: /img/roteirizador.jpeg
 tags:
   - sfsfF
 meta_title: asdasd
