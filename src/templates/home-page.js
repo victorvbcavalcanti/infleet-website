@@ -6,7 +6,20 @@ import Layout from "../components/Layout";
 
 const HomePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
-  const { background, crea, inovativa, renault, senai, vale } = data;
+  const {
+    background,
+    crea,
+    inovativa,
+    renault,
+    senai,
+    vale,
+    routerIcon,
+    monitorIcon,
+    maintenanceIcon,
+    fuellingIcon,
+    avatar1,
+    avatar2
+  } = data;
 
   return (
     <Layout>
@@ -24,6 +37,12 @@ const HomePage = ({ data }) => {
         renault={renault}
         senai={senai}
         vale={vale}
+        routerIcon={routerIcon}
+        monitorIcon={monitorIcon}
+        maintenanceIcon={maintenanceIcon}
+        fuellingIcon={fuellingIcon}
+        avatar1={avatar1}
+        avatar2={avatar2}
       />
     </Layout>
   );
@@ -43,7 +62,7 @@ export const pageQuery = graphql`
   query IndexPage($id: String!) {
     background: file(relativePath: { eq: "background.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1440, maxHeight: 600) {
+        fluid(maxWidth: 1024, maxHeight: 400) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -71,7 +90,7 @@ export const pageQuery = graphql`
     }
     senai: file(relativePath: { eq: "senai.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }
@@ -79,6 +98,48 @@ export const pageQuery = graphql`
     vale: file(relativePath: { eq: "vale.png" }) {
       childImageSharp {
         fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    routerIcon: file(relativePath: { eq: "router-icon.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    monitorIcon: file(relativePath: { eq: "monitor-icon.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    maintenanceIcon: file(relativePath: { eq: "maintenance-icon.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    fuellingIcon: file(relativePath: { eq: "fuelling-icon.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    avatar1: file(relativePath: { eq: "avatar-1.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    avatar2: file(relativePath: { eq: "avatar-2.png" }) {
+      childImageSharp {
+        fluid {
           ...GatsbyImageSharpFluid
         }
       }

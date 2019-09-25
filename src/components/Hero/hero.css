@@ -32,7 +32,7 @@
 
 .button-test:hover {
   cursor: pointer;
-  background-color: #07b40dd2
+  background-color: #07b40dd2;
 }
 
 .button-video {
@@ -53,8 +53,8 @@
 }
 
 #hero {
-  padding-bottom: 12rem;
-  padding-top: 12rem;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
 }
 
 @media (max-width: 768px) {
@@ -81,9 +81,9 @@
 
 @media (min-width: 769px) {
   .partner-image {
-    height:10rem;
+    height: 10rem;
     width: 10rem;
-    margin: 0 auto
+    margin: 0 auto;
   }
 }
 

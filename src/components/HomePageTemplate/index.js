@@ -25,7 +25,13 @@ const HomePageTemplate = ({
   renault,
   vale,
   inovativa,
-  senai
+  senai,
+  routerIcon,
+  monitorIcon,
+  maintenanceIcon,
+  fuellingIcon,
+  avatar1,
+  avatar2
 }) => {
   const backgroundImage = background.childImageSharp.fluid;
   const inovativaImage = inovativa.childImageSharp.fluid;
@@ -34,7 +40,15 @@ const HomePageTemplate = ({
   const renaultImage = renault.childImageSharp.fluid;
   const senaiImage = senai.childImageSharp.fluid;
 
-  const [isOpen, setModal] = useState(false)
+  const routerIconImage = routerIcon.childImageSharp.fluid;
+  const monitorIconImage = monitorIcon.childImageSharp.fluid;
+  const maintenanceIconImage = maintenanceIcon.childImageSharp.fluid;
+  const fuellingIconImage = fuellingIcon.childImageSharp.fluid;
+
+  const avatar1Image = avatar1.childImageSharp.fluid;
+  const avatar2Image = avatar2.childImageSharp.fluid;
+
+  const [isOpen, setModal] = useState(false);
 
   return (
     <div>
@@ -53,7 +67,12 @@ const HomePageTemplate = ({
         handleModal={setModal}
       />
 
-      <Products />
+      <Products
+        routerIcon={routerIconImage}
+        monitorIcon={monitorIconImage}
+        maintenanceIcon={maintenanceIconImage}
+        fuellingIcon={fuellingIconImage}
+      />
 
       <section className="features-section">
         <div className="container">
@@ -64,7 +83,7 @@ const HomePageTemplate = ({
         </div>
       </section>
 
-      <Testimonials />
+      <Testimonials avatar1={avatar1Image} avatar2={avatar2Image} />
 
       <Partners />
 
@@ -78,7 +97,7 @@ const HomePageTemplate = ({
 
       <ContactForm />
 
-      <TestModal isOpen={isOpen} handleModal={setModal}/>
+      <TestModal isOpen={isOpen} handleModal={setModal} />
     </div>
   );
 };

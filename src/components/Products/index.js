@@ -1,6 +1,12 @@
 import React, { Fragment } from "react";
+import Img from "gatsby-image";
 
-export default function index() {
+export default function index({
+  routerIcon,
+  monitorIcon,
+  maintenanceIcon,
+  fuellingIcon
+}) {
   return (
     <Fragment>
       <div className="container">
@@ -30,7 +36,9 @@ export default function index() {
             <div className="column is-one-quarter-desktop is-half-tablet">
               <div className="mobile-padding">
                 <div className="product">
-                  <div>Imagem</div>
+                  <div className="product-image">
+                    <Img fluid={routerIcon} alt="Roteirizador" />
+                  </div>
                   <h4 className="is-size-5 product-text">
                     <strong>Roteirizador</strong>
                   </h4>
@@ -44,7 +52,9 @@ export default function index() {
             <div className="column is-one-quarter-desktop is-half-tablet">
               <div className="mobile-padding">
                 <div className="product">
-                  <div>Imagem</div>
+                  <div className="product-image">
+                    <Img fluid={monitorIcon} alt="Monitoramento" />
+                  </div>
                   <h4 className="is-size-5 product-text">
                     <strong>Monitoramento</strong>
                   </h4>
@@ -58,13 +68,15 @@ export default function index() {
             <div className="column is-one-quarter-desktop is-half-tablet">
               <div className="mobile-padding">
                 <div className="product">
-                  <div>Imagem</div>
+                  <div className="product-image">
+                    <Img fluid={maintenanceIcon} alt="Manutenção" />
+                  </div>
                   <h4 className="is-size-5 product-text">
                     <strong>Manutenção</strong>
                   </h4>
                   <p className="product-text">
-                    Controle as ordens de serviço corretivas e preventivas
-                    acompanhando os planos de manutenção de cada veículo
+                    Controle as ordens de serviço considerando os planos de
+                    manutenção de cada veículo
                   </p>
                 </div>
               </div>
@@ -72,7 +84,9 @@ export default function index() {
             <div className="column is-one-quarter-desktop is-half-tablet">
               <div className="mobile-padding">
                 <div className="product">
-                  <div>Imagem</div>
+                  <div className="product-image">
+                    <Img fluid={fuellingIcon} alt="Abastecimento" />
+                  </div>
                   <h4 className="is-size-5 product-text">
                     <strong>Abastecimento</strong>
                   </h4>

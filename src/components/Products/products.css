@@ -14,6 +14,12 @@
   height: 20rem;
 }
 
+.product-image {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0 auto;
+}
+
 .product-text {
   margin-top: 1rem;
 }

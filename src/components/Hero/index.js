@@ -57,23 +57,23 @@ export default function index({
       <Container>
         <Row>
           <Col xs={6} sm={6} md={3} lg={3}>
-            <div className="partner-image">
-              <Img fluid={crea} alt="Vale do Dendê" />
+            <div style={{height: '8rem', width: '8rem'}} className="partner-image">
+              <Img fluid={crea} alt="Crea" />
             </div>
           </Col>
           <Col xs={6} sm={6} md={3} lg={3}>
-            <div className="partner-image">
-              <Img fluid={senai} alt="Vale do Dendê" />
+            <div style={{ paddingTop: "2.5rem" }} className="partner-image">
+              <Img fluid={senai} alt="Senai" />
             </div>
           </Col>
           <Col xs={6} md={3} lg={3}>
-            <div className="partner-image">
-              <Img fluid={renault} alt="Vale do Dendê" />
+            <div style={{ paddingTop: "2.5rem" }} className="partner-image">
+              <Img fluid={renault} alt="Renault" />
             </div>
           </Col>
           <Col xs={6} md={3} lg={3}>
-            <div className="partner-image">
-              <Img fluid={inovativa} alt="Vale do Dendê" />
+            <div style={{ paddingTop: "2rem" }} className="partner-image">
+              <Img fluid={inovativa} alt="Inovativa" />
             </div>
           </Col>
         </Row>
