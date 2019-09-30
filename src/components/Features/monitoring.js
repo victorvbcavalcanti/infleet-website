@@ -34,7 +34,7 @@ export default function monitoring({ monitorFeature }) {
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Horas ligado + Horas ligado e parado
+                      Horas ligado + Horas parado
                     </li>
                   </ul>
                 </div>

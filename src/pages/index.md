@@ -1,18 +1,9 @@
 ---
 templateKey: home-page
-title: Fornecemos tecnologia de ponta para sua frota.
-heading: Nossas soluções
+title: Tecnologia para frotas.
 description: >-
-  Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
-  adipisci velit...
-offerings:
-  blurbs: []
-testimonials: []
+  Conheça as soluções Infleet de gestão logística
 meta_title: INFLEET | Gestão Logística
 meta_description: >-
-  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-  ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
-  venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
-  consectetur purus sit amet fermentum.
+  O Infleet é uma plataforma de soluções integradas para sua operação logística. Uma solução composta por quatro módulos, Roteirização, Monitoramento, Gestão de Manutenção e Gestão de Abastecimentos
 ---
-
