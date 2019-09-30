@@ -106,6 +106,9 @@ export const pageQuery = graphql`
             title
             cover
           }
+          fields {
+            slug
+          }
           internal {
             content
           }

@@ -33,7 +33,7 @@ export default function router({ routerFeature }) {
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />
-                      Previsão de custos das rotas
+                      Previsão de custos de rota
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />

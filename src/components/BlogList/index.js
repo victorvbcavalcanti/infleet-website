@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
+import { Link } from "gatsby";
 import moment from "moment";
 import "moment/locale/pt-br";
 
@@ -19,7 +20,7 @@ export default function index({ image, blogPosts }) {
                 <div className="blogPost">
                   <div className="blogImage">
                     <img
-                      style={{maxHeight: '100%'}}
+                      style={{ maxHeight: "100%" }}
                       src={require(`../../../static${blog.node.frontmatter.cover}`)}
                       alt={blog.node.frontmatter.title}
                     />
@@ -32,7 +33,7 @@ export default function index({ image, blogPosts }) {
                     </h2>
                     <p className="blogText">{blog.node.internal.content}</p>
                     <div style={{ textAlign: "left", marginTop: "0.15rem" }}>
-                      <a href="#">Ler mais</a>
+                      <Link to={blog.node.fields.slug}>Ler mais</Link>
                     </div>
                   </div>
                 </div>

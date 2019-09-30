@@ -8,7 +8,7 @@ export default function index({ band, pegn, tecmundo, creaPartner }) {
       <h1 className="is-size-2 is-size-3-mobile has-text-centered has-text-primary">
         Quem já falou da gente
       </h1>
-      <div style={{ marginTop: "3rem" }}>
+      <div style={{ marginTop: "5rem" }}>
         <Container>
           <Row>
             <Col xs={6} sm={6} md={3} lg={3}>

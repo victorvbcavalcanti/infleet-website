@@ -37,7 +37,7 @@ export default function maintenance({ maintenanceFeature }) {
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Registro de ordens de serviço
+                      Registro de ordem de serviço
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />

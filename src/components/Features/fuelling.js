@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 export default function fuelling({ fuellingFeature }) {
   return (
     <div className="feature">
-      <div className="columns is-multiline is-variable is-6 invertMobile">
+      <div className="columns is-multiline is-variable is-6">
         <div className="column is-half is-mobile">
           <div className="mobile-container">
             <div className="feature-title">
