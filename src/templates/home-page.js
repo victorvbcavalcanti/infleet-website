@@ -6,6 +6,10 @@ import Layout from "../components/Layout";
 
 const HomePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
+  let { edges } = data.allMarkdownRemark;
+
+  const blogPosts = edges.filter((blog, index) => index !== 0 && index !== 1);
+
   const {
     background,
     crea,
@@ -46,6 +50,7 @@ const HomePage = ({ data }) => {
         description={frontmatter.description}
         offerings={frontmatter.offerings}
         testimonials={frontmatter.testimonials}
+        blogPosts={blogPosts}
         background={background}
         crea={crea}
         inovativa={inovativa}
@@ -90,6 +95,23 @@ export default HomePage;
 
 export const pageQuery = graphql`
   query IndexPage($id: String!) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      limit: 5
+    ) {
+      edges {
+        node {
+          frontmatter {
+            date
+            title
+            cover
+          }
+          internal {
+            content
+          }
+        }
+      }
+    }
     background: file(relativePath: { eq: "background.png" }) {
       childImageSharp {
         fluid(maxWidth: 1024, maxHeight: 400) {

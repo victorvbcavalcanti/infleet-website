@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-business",
-  "description": "Gatsby Business Website Starter",
-  "author": "Vaibhav Sharma",
-  "version": "2.1.1",
+  "name": "Infleet",
+  "description": "Infleet | Tecnologia para frotas",
+  "author": "Lucas Bastos",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -39,6 +39,7 @@
     "intersection-observer": "^0.7.0",
     "lodash": "^4.17.11",
     "lodash-webpack-plugin": "^0.11.5",
+    "moment": "^2.24.0",
     "netlify-cms": "^2.3.3",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",

@@ -65,9 +65,9 @@ export default class BlogPage extends Component {
               <PaginationLink
                 test={first}
                 url={previousUrl}
-                text="Previous Page"
+                text="Página anterior"
               />
-              <PaginationLink test={last} url={nextUrl} text="Next Page" />
+              <PaginationLink test={last} url={nextUrl} text="Próxima página" />
             </div>
           </section>
         </section>

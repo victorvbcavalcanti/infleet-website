@@ -66,13 +66,13 @@ To personalize and configure this Starter open `config.js` file and replace the 
 
 ```javascript
 module.exports = {
-  siteTitle: 'Gatsby Starter Business', // Site title.
-  siteTitleAlt: 'Business', // Alternative site title for SEO.
+  siteTitle: 'Infleet | Tecnologia para Frotas', // Site title.
+  siteTitleAlt: 'Infleet', // Alternative site title for SEO.
   siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://gatsby-starter-business.netlify.com', // Domain of your website without pathPrefix.
   // Do not use trailing slash!
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
-  siteDescription: 'Leverage Gatsby Business Starter for your Business.', // Website description used for RSS feeds/meta description tag.
+  siteDescription: 'Tecnologia de ponta para sua operação logística', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: '', // GTM tracking ID.

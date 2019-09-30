@@ -21,6 +21,7 @@ const HomePageTemplate = ({
   meta_title,
   meta_description,
   background,
+  blogPosts,
   crea,
   renault,
   vale,
@@ -137,7 +138,7 @@ const HomePageTemplate = ({
         creaPartner={creaPartnerImage}
       />
 
-      <BlogList image={backgroundImage} />
+      <BlogList image={backgroundImage} blogPosts={blogPosts} />
 
       <Newsletter />
 
