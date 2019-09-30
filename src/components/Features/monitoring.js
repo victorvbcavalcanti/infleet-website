@@ -22,7 +22,7 @@ export default function monitoring({ monitorFeature }) {
             </div>
             <div className="feature-items">
               <div className="columns is-mobile is-variable is-0">
-                <div className="column is-half">
+                <div id="maintenance-link" className="column is-half">
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />

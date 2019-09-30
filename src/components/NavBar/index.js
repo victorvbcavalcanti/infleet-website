@@ -80,28 +80,28 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                   <a
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    // to="/about"
+                    href="#router-link"
                   >
                     Roteirizador
                   </a>
                   <a
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/about"
+                    href="#monitor-link"
                   >
                     Monitoramento
                   </a>
                   <a
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/about"
+                    href="#maintenance-link"
                   >
                     Manutenção
                   </a>
                   <a
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/about"
+                    href="#fuelling-link"
                   >
                     Abastecimento
                   </a>
