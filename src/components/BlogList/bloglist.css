@@ -1,3 +1,38 @@
 .bloglist-section {
-    margin-top: 5rem;
+  margin-top: 5rem;
+}
+
+.blogPost {
+  /* height: 28.5rem; */
+  border-bottom: 0.5rem solid #001132;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.blogImage {
+  width: 100%;
+}
+
+.blogContent {
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.blogTitle {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.blogDate {
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.blogText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8; /* number of lines to show */
+  line-height: 1.35rem; /* fallback */
+  max-height: 1rem * 8; /* fallback */
 }

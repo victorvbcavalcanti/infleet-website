@@ -30,8 +30,23 @@ const HomePageTemplate = ({
   monitorIcon,
   maintenanceIcon,
   fuellingIcon,
+  routerFeature,
+  monitorFeature,
+  maintenanceFeature,
+  fuellingFeature,
   avatar1,
-  avatar2
+  avatar2,
+  maxforte,
+  biosanear,
+  milfontes,
+  unimed,
+  ecologicaNordeste,
+  mirasol,
+  pegn,
+  creaPartner,
+  tecmundo,
+  band,
+  trucks
 }) => {
   const backgroundImage = background.childImageSharp.fluid;
   const inovativaImage = inovativa.childImageSharp.fluid;
@@ -45,8 +60,27 @@ const HomePageTemplate = ({
   const maintenanceIconImage = maintenanceIcon.childImageSharp.fluid;
   const fuellingIconImage = fuellingIcon.childImageSharp.fluid;
 
+  const routerFeatureImage = routerFeature.childImageSharp.fluid;
+  const monitorFeatureImage = monitorFeature.childImageSharp.fluid;
+  const maintenanceFeatureImage = maintenanceFeature.childImageSharp.fluid;
+  const fuellingFeatureImage = fuellingFeature.childImageSharp.fluid;
+
   const avatar1Image = avatar1.childImageSharp.fluid;
   const avatar2Image = avatar2.childImageSharp.fluid;
+
+  const maxforteImage = maxforte.childImageSharp.fluid;
+  const biosanearImage = biosanear.childImageSharp.fluid;
+  const milfontesImage = milfontes.childImageSharp.fluid;
+  const unimedImage = unimed.childImageSharp.fluid;
+  const ecologicaNordesteImage = ecologicaNordeste.childImageSharp.fluid;
+  const mirasolImage = mirasol.childImageSharp.fluid;
+
+  const pegnImage = pegn.childImageSharp.fluid;
+  const creaPartnerImage = creaPartner.childImageSharp.fluid;
+  const tecmundoImage = tecmundo.childImageSharp.fluid;
+  const bandImage = band.childImageSharp.fluid;
+
+  const trucksImage = trucks.childImageSharp.fluid;
 
   const [isOpen, setModal] = useState(false);
 
@@ -76,26 +110,38 @@ const HomePageTemplate = ({
 
       <section className="features-section">
         <div className="container">
-          <Router />
-          <Monitoring />
-          <Maintenance />
-          <Fuelling />
+          <Router routerFeature={routerFeatureImage} />
+          <Monitoring monitorFeature={monitorFeatureImage} />
+          <Maintenance maintenanceFeature={maintenanceFeatureImage} />
+          <Fuelling fuellingFeature={fuellingFeatureImage} />
         </div>
       </section>
 
       <Testimonials avatar1={avatar1Image} avatar2={avatar2Image} />
 
-      <Partners />
+      <Partners
+        maxforte={maxforteImage}
+        biosanear={biosanearImage}
+        milfontes={milfontesImage}
+        unimed={unimedImage}
+        ecologicaNordeste={ecologicaNordesteImage}
+        mirasol={mirasolImage}
+      />
 
       <Indicators />
 
-      <Press />
+      <Press
+        band={bandImage}
+        pegn={pegnImage}
+        tecmundo={tecmundoImage}
+        creaPartner={creaPartnerImage}
+      />
 
-      <BlogList />
+      <BlogList image={backgroundImage} />
 
       <Newsletter />
 
-      <ContactForm />
+      <ContactForm trucks={trucksImage} />
 
       <TestModal isOpen={isOpen} handleModal={setModal} />
     </div>

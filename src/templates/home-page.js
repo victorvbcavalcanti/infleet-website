@@ -18,7 +18,22 @@ const HomePage = ({ data }) => {
     maintenanceIcon,
     fuellingIcon,
     avatar1,
-    avatar2
+    avatar2,
+    maxforte,
+    biosanear,
+    milfontes,
+    unimed,
+    ecologicaNordeste,
+    mirasol,
+    band,
+    creaPartner,
+    tecmundo,
+    pegn,
+    trucks,
+    routerFeature,
+    monitorFeature,
+    maintenanceFeature,
+    fuellingFeature
   } = data;
 
   return (
@@ -43,6 +58,21 @@ const HomePage = ({ data }) => {
         fuellingIcon={fuellingIcon}
         avatar1={avatar1}
         avatar2={avatar2}
+        maxforte={maxforte}
+        biosanear={biosanear}
+        milfontes={milfontes}
+        unimed={unimed}
+        ecologicaNordeste={ecologicaNordeste}
+        mirasol={mirasol}
+        band={band}
+        creaPartner={creaPartner}
+        tecmundo={tecmundo}
+        pegn={pegn}
+        trucks={trucks}
+        routerFeature={routerFeature}
+        monitorFeature={monitorFeature}
+        fuellingFeature={fuellingFeature}
+        maintenanceFeature={maintenanceFeature}
       />
     </Layout>
   );
@@ -138,6 +168,111 @@ export const pageQuery = graphql`
       }
     }
     avatar2: file(relativePath: { eq: "avatar-2.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    maxforte: file(relativePath: { eq: "maxforte.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    mirasol: file(relativePath: { eq: "mirasol.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    milfontes: file(relativePath: { eq: "milfontes.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    unimed: file(relativePath: { eq: "unimed.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    ecologicaNordeste: file(relativePath: { eq: "ecologica-nordeste.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    biosanear: file(relativePath: { eq: "biosanear.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    pegn: file(relativePath: { eq: "pegn.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    tecmundo: file(relativePath: { eq: "tecmundo.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    creaPartner: file(relativePath: { eq: "crea-partner.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    band: file(relativePath: { eq: "band.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    trucks: file(relativePath: { eq: "trucks.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    routerFeature: file(relativePath: { eq: "router-feature.webp" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    monitorFeature: file(relativePath: { eq: "monitor-feature.webp" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    maintenanceFeature: file(relativePath: { eq: "maintenance-feature.webp" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    fuellingFeature: file(relativePath: { eq: "fuelling-feature.webp" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

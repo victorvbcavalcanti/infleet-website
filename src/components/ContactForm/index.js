@@ -1,7 +1,8 @@
 import React from "react";
+import Img from "gatsby-image";
 import { Container, Row, Col } from "react-grid-system";
 
-export default function index() {
+export default function index({ trucks }) {
   return (
     <section className="contact-section">
       <div className="contact-title">
@@ -73,14 +74,12 @@ export default function index() {
                 </Col>
               </Row>
               <br />
-              <button
-                className="send"
-              >
-                ENVIAR
-              </button>
+              <button className="send">ENVIAR</button>
             </Col>
             <Col xs={12} sm={6} md={6}>
-              <div>Imagem</div>
+              <div className="truck-image">
+                <Img fluid={trucks} alt="Caminhão" />
+              </div>
             </Col>
           </Row>
         </Container>

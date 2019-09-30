@@ -9,8 +9,8 @@ module.exports = {
   siteFBAppID: '', // FB Application ID for using app insights
   googleTagManagerID: '', // GTM tracking ID.
   disqusShortname: 'infleet-website', // Disqus shortname.
-  userName: 'Vaibhav Sharma',
-  userTwitter: 'vaibhaved',
+  userName: 'Infleet',
+  // userTwitter: '',
   userLocation: 'Salvador, Bahia, Brazil',
   userDescription: '',
   copyright: 'Copyright © INFLEET | Tecnologia para frotas 2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.

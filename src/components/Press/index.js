@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import { Container, Row, Col } from "react-grid-system";
 
-export default function index() {
+export default function index({ band, pegn, tecmundo, creaPartner }) {
   return (
     <section className="press-section">
       <h1 className="is-size-2 is-size-3-mobile has-text-centered has-text-primary">
@@ -13,26 +13,32 @@ export default function index() {
           <Row>
             <Col xs={6} sm={6} md={3} lg={3}>
               <div className="partner-image">
-                Imagem
-                {/* <Img fluid={creaImage} alt="Vale do Dendê" /> */}
+                <Img fluid={band} alt="Band" />
               </div>
             </Col>
             <Col xs={6} sm={6} md={3} lg={3}>
-              <div className="partner-image">
-                Imagem
-                {/* <Img fluid={senaiImage} alt="Vale do Dendê" /> */}
+              <div
+                style={{ padding: "0rem 0rem 0rem 0rem" }}
+                className="partner-image"
+              >
+                <Img fluid={pegn} alt="Pequenas Empresas, Grandes Negócios" />
               </div>
             </Col>
             <Col xs={6} md={3} lg={3}>
-              <div className="partner-image">
-                Imagem
-                {/* <Img fluid={renaultImage} alt="Vale do Dendê" /> */}
+              <div
+                id="tecmundo"
+                style={{ padding: "1.2rem 0rem 0rem 0rem" }}
+                className="partner-image"
+              >
+                <Img fluid={tecmundo} alt="Tecmundo" />
               </div>
             </Col>
             <Col xs={6} md={3} lg={3}>
-              <div className="partner-image">
-                Imagem
-                {/* <Img fluid={inovativaImage} alt="Vale do Dendê" /> */}
+              <div
+                style={{ padding: "0rem 0rem 0rem 0rem" }}
+                className="partner-image"
+              >
+                <Img fluid={creaPartner} alt="CREA" />
               </div>
             </Col>
           </Row>

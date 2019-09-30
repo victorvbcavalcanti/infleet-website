@@ -1,13 +1,16 @@
 import React from "react";
+import Img from "gatsby-image";
 import { FaCheck } from "react-icons/fa";
 
-export default function router() {
+export default function router({ routerFeature }) {
   return (
     <div className="">
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div className="mobile-container">
-            <div className="has-text-centered">Imagem</div>
+            <div className="has-text-centered">
+              <Img fluid={routerFeature} alt="Roteirizador" />
+            </div>
           </div>
         </div>
         <div className="column is-half">
