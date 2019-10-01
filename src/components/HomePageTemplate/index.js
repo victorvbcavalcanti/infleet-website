@@ -142,7 +142,7 @@ const HomePageTemplate = ({
 
       <Newsletter />
 
-      <ContactForm trucks={trucksImage} />
+      {/* <ContactForm trucks={trucksImage} /> */}
 
       <TestModal isOpen={isOpen} handleModal={setModal} />
     </div>

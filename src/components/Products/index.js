@@ -84,7 +84,7 @@ export default function index({
             <div className="column is-one-quarter-desktop is-half-tablet">
               <div className="mobile-padding">
                 <div className="product">
-                  <div id="router-link" className="product-image">
+                  <div className="product-image">
                     <Img fluid={fuellingIcon} alt="Abastecimento" />
                   </div>
                   <h4 className="is-size-5 product-text">

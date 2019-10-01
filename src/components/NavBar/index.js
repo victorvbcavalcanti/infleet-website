@@ -107,13 +107,13 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                   </a>
                 </div>
                 <div className="navbar-end">
-                  <a
+                  {/* <a
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
                     to="/about"
                   >
                     Contato
-                  </a>
+                  </a> */}
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
