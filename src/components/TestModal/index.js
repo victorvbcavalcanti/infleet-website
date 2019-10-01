@@ -31,7 +31,7 @@ export default function index({ isOpen, handleModal }) {
                 <Col className="border-right" xs={12} md={6}>
                   <form
                     name="trial"
-                    method="POST"
+                    action="POST"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
