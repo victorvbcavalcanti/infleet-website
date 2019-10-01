@@ -10,13 +10,27 @@
   color: #fff;
 }
 
+.indicator-number {
+  font-size: 4rem;
+}
+
+.indicator-item {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1025px) {
+  .indicator-number {
+    font-size: 3rem !important;
+  }
+}
+
 @media (max-width: 768px) {
   .indicators-section {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
 
-  .level-item {
-      margin-bottom: 1.5rem !important;
+  .indicator-item {
+    margin-bottom: 1rem;
   }
 }
