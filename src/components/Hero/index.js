@@ -57,12 +57,15 @@ export default function index({
       <Container>
         <Row>
           <Col xs={6} sm={6} md={3} lg={3}>
-            <div style={{height: '8rem', width: '8rem'}} className="partner-image">
+            <div
+              style={{ height: "10rem", width: "10rem", paddingTop: "2rem" }}
+              className="partner-image"
+            >
               <Img fluid={crea} alt="Crea" />
             </div>
           </Col>
           <Col xs={6} sm={6} md={3} lg={3}>
-            <div style={{ paddingTop: "2.5rem" }} className="partner-image">
+            <div style={{ paddingTop: "2.75rem" }} className="partner-image">
               <Img fluid={senai} alt="Senai" />
             </div>
           </Col>
