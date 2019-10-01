@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
 import { IoMdMail } from "react-icons/io";
-import { FaPhone } from 'react-icons/fa'
+import { FaPhone } from "react-icons/fa";
 
 export default function index({ isOpen, handleModal }) {
   const modalClass = isOpen ? "is-active" : "";
@@ -25,64 +25,77 @@ export default function index({ isOpen, handleModal }) {
               </Row>
               <Row gutterWidth={48}>
                 <Col className="border-right" xs={12} md={6}>
-                  <Row>
-                    <Col>
-                      <div className="field">
-                        <label className="label">Nome</label>
-                        <div className="control">
-                          <input
-                            className="input"
-                            type="text"
-                            placeholder="Nome"
-                          />
+                  <form name="trial" method="POST" data-netlify="true">
+                    <Row>
+                      <Col>
+                        <div className="field">
+                          <label className="label">Nome</label>
+                          <div className="control">
+                            <input
+                              name="name"
+                              className="input"
+                              type="text"
+                              placeholder="Nome"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </Col>
-                  </Row>
-                  <br />
-                  <Row>
-                    <Col>
-                      <div className="field">
-                        <label className="label">E-mail</label>
-                        <div className="control">
-                          <input
-                            className="input"
-                            type="text"
-                            placeholder="Ex.: joao@exemplo.com"
-                          />
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row>
+                      <Col>
+                        <div className="field">
+                          <label className="label">E-mail</label>
+                          <div className="control">
+                            <input
+                              name="email"
+                              className="input"
+                              type="email"
+                              placeholder="Ex.: joao@exemplo.com"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </Col>
-                  </Row>
-                  <br />
-                  <Row>
-                    <Col>
-                      <div className="field">
-                        <label className="label">Telefone</label>
-                        <div className="control">
-                          <input
-                            className="input"
-                            type="text"
-                            placeholder="(71) 9 9999 - 9999"
-                          />
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row>
+                      <Col>
+                        <div className="field">
+                          <label className="label">Telefone</label>
+                          <div className="control">
+                            <input
+                              name="phone"
+                              className="input"
+                              type="text"
+                              placeholder="(71) 9 9999 - 9999"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </Col>
-                  </Row>
-                  <br />
-                  <Row>
-                    <Col>
-                      <div className="field">
-                        <label className="label">Número de equipamentos</label>
-                        <div className="control">
-                          <input className="input" type="text" placeholder="" />
+                      </Col>
+                    </Row>
+                    <br />
+                    <Row>
+                      <Col>
+                        <div className="field">
+                          <label className="label">
+                            Número de equipamentos
+                          </label>
+                          <div className="control">
+                            <input
+                              name="equipments"
+                              className="input"
+                              type="number"
+                              placeholder="Ex.: 10"
+                            />
+                          </div>
                         </div>
-                      </div>
-                    </Col>
-                  </Row>
-                  <br />
-                  <button className="confirm">SOLICITAR</button>
+                      </Col>
+                    </Row>
+                    <br />
+                    <button className="confirm">SOLICITAR</button>
+                  </form>
                 </Col>
+
                 <Col xs={12} md={6}>
                   <p className="explain">
                     Em caso de qualquer dúvida, não hesite em nos contatar! : )
