@@ -5,6 +5,7 @@ import { FaCheck } from "react-icons/fa";
 export default function maintenance({ maintenanceFeature }) {
   return (
     <div className="feature">
+      <div style={{ paddingTop: "6rem" }} id="maintenance-link"></div>
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div className="mobile-container">
@@ -29,7 +30,7 @@ export default function maintenance({ maintenanceFeature }) {
             </div>
             <div className="feature-items">
               <div className="columns is-mobile is-variable is-0">
-                <div id="fuelling-link" className="column is-half">
+                <div className="column is-half">
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />

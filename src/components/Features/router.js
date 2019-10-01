@@ -5,6 +5,7 @@ import { FaCheck } from "react-icons/fa";
 export default function router({ routerFeature }) {
   return (
     <div>
+      <div style={{ paddingTop: "6rem" }} id="router-link"></div>
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div className="mobile-container">
@@ -17,7 +18,7 @@ export default function router({ routerFeature }) {
           <div className="mobile-container">
             <div className="feature-title">
               <h3 className="is-size-3">Roteirizador</h3>
-              <h4 className="is-size-5">
+             <h4 className="is-size-5">
                 Perfeito para otimização de processos
               </h4>
             </div>
@@ -29,7 +30,7 @@ export default function router({ routerFeature }) {
             </div>
             <div className="feature-items">
               <div className="columns is-mobile is-variable is-0">
-                <div id="monitor-link" className="column is-half">
+                <div className="column is-half">
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />

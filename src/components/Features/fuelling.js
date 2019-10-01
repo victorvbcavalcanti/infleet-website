@@ -5,6 +5,7 @@ import { FaCheck } from "react-icons/fa";
 export default function fuelling({ fuellingFeature }) {
   return (
     <div className="feature">
+      <div style={{ paddingTop: "6rem" }} id="fuelling-link"></div>
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half is-mobile">
           <div className="mobile-container">

@@ -5,9 +5,11 @@ import { FaCheck } from "react-icons/fa";
 export default function monitoring({ monitorFeature }) {
   return (
     <div className="feature">
+      <div style={{ paddingTop: "4rem" }} id="monitor-link"></div>
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div className="mobile-container">
+            <div style={{ height: "2rem" }}></div>
             <div className="feature-title">
               <h3 className="is-size-3">Monitoramento</h3>
               <h4 className="is-size-5">
@@ -22,7 +24,7 @@ export default function monitoring({ monitorFeature }) {
             </div>
             <div className="feature-items">
               <div className="columns is-mobile is-variable is-0">
-                <div id="maintenance-link" className="column is-half">
+                <div className="column is-half">
                   <ul className="feature-list">
                     <li>
                       <FaCheck className="feature-icon" />
