@@ -46,10 +46,6 @@ const HomePage = ({ data }) => {
         title={frontmatter.title}
         meta_title={frontmatter.meta_title}
         meta_description={frontmatter.meta_description}
-        heading={frontmatter.heading}
-        description={frontmatter.description}
-        offerings={frontmatter.offerings}
-        testimonials={frontmatter.testimonials}
         blogPosts={blogPosts}
         background={background}
         crea={crea}

@@ -152,13 +152,7 @@ const HomePageTemplate = ({
 HomePageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
-  meta_description: PropTypes.string,
-  heading: PropTypes.string,
-  description: PropTypes.string,
-  offerings: PropTypes.shape({
-    blurbs: PropTypes.array
-  }),
-  testimonials: PropTypes.array
+  meta_description: PropTypes.string
 };
 
 export default HomePageTemplate;
