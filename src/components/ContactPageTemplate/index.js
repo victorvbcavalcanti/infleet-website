@@ -69,8 +69,8 @@ class ContactPageTemplate extends Component {
               method='post'
               action='/contact/success'
               encType='application/x-www-form-urlencoded'
-              data-netlify='true'
-              data-netlify-honeypot='bot-field'
+              // data-netlify='true'
+              // data-netlify-honeypot='bot-field'
               onSubmit={this.handleSubmit}
             >
               <input type='hidden' name='form-name' value='contact' />

@@ -31,11 +31,11 @@ export default function index({ isOpen, handleModal }) {
                 <Col className="border-right" xs={12} md={6}>
                   <form
                     name="trial"
-                    action="POST"
+                    method="POST"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
-                    <input type="hidden" name="trial-form" value="trial" />
+                    <input type="hidden" name="trial" value="trial" />
                     <div hidden>
                       <label>
                         Don’t fill this out:{" "}
