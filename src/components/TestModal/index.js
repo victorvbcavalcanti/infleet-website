@@ -6,6 +6,10 @@ import { FaPhone } from "react-icons/fa";
 export default function index({ isOpen, handleModal }) {
   const modalClass = isOpen ? "is-active" : "";
 
+  const handleChange = e => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
+
   return (
     <div>
       <div className={`modal ${modalClass}`}>
@@ -25,7 +29,18 @@ export default function index({ isOpen, handleModal }) {
               </Row>
               <Row gutterWidth={48}>
                 <Col className="border-right" xs={12} md={6}>
-                  <form name="trial" method="POST" data-netlify="true">
+                  <form
+                    name="trial"
+                    method="POST"
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                  >
+                    <div hidden>
+                      <label>
+                        Don’t fill this out:{" "}
+                        <input name="bot-field" onChange={handleChange} />
+                      </label>
+                    </div>
                     <Row>
                       <Col>
                         <div className="field">
@@ -92,7 +107,7 @@ export default function index({ isOpen, handleModal }) {
                       </Col>
                     </Row>
                     <br />
-                    <button className="confirm">SOLICITAR</button>
+                    <button type="submit" className="confirm">SOLICITAR</button>
                   </form>
                 </Col>
 
