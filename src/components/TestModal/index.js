@@ -35,6 +35,7 @@ export default function index({ isOpen, handleModal }) {
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
+                    <input type="hidden" name="trial-form" value="trial" />
                     <div hidden>
                       <label>
                         Don’t fill this out:{" "}
