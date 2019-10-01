@@ -1,14 +1,30 @@
 import React from "react";
+  
 import { Container, Row, Col } from "react-grid-system";
+import { Formik } from "formik";
+import * as Yup from "yup";
 import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
+
+const TrialSchema = Yup.object().shape({
+  name: Yup.string().required("Campo obrigatório"),
+  email: Yup.string()
+    .email("E-mail inválido")
+    .required("Campo obrigatório")
+});
+
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
 
 export default function index({ isOpen, handleModal }) {
   const modalClass = isOpen ? "is-active" : "";
 
-  const handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
+  // const handleChange = e => {
+  //   this.setState({ [e.target.name]: e.target.value });
+  // };
 
   return (
     <div>
@@ -29,87 +45,130 @@ export default function index({ isOpen, handleModal }) {
               </Row>
               <Row gutterWidth={48}>
                 <Col className="border-right" xs={12} md={6}>
-                  <form
-                    name="trial"
-                    method="POST"
-                    data-netlify="true"
-                    data-netlify-honeypot="bot-field"
-                  >
-                    <input type="hidden" name="trial" value="trial" />
-                    <div hidden>
-                      <label>
-                        Don’t fill this out:{" "}
-                        <input name="bot-field" onChange={handleChange} />
-                      </label>
-                    </div>
-                    <Row>
-                      <Col>
-                        <div className="field">
-                          <label className="label">Nome</label>
-                          <div className="control">
-                            <input
-                              name="name"
-                              className="input"
-                              type="text"
-                              placeholder="Nome"
-                            />
-                          </div>
-                        </div>
-                      </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                      <Col>
-                        <div className="field">
-                          <label className="label">E-mail</label>
-                          <div className="control">
-                            <input
-                              name="email"
-                              className="input"
-                              type="email"
-                              placeholder="Ex.: joao@exemplo.com"
-                            />
-                          </div>
-                        </div>
-                      </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                      <Col>
-                        <div className="field">
-                          <label className="label">Telefone</label>
-                          <div className="control">
-                            <input
-                              name="phone"
-                              className="input"
-                              type="text"
-                              placeholder="(71) 9 9999 - 9999"
-                            />
-                          </div>
-                        </div>
-                      </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                      <Col>
-                        <div className="field">
-                          <label className="label">
-                            Número de equipamentos
+                  <Formik
+                    // initialValues={user /** { email, social } */}
+                    // onSubmit={(values, actions) => {
+                    //   MyImaginaryRestApiCall(user.id, values).then(
+                    //     updatedUser => {
+                    //       actions.setSubmitting(false);
+                    //       updateUser(updatedUser);
+                    //       onClose();
+                    //     },
+                    //     error => {
+                    //       actions.setSubmitting(false);
+                    //       actions.setErrors(
+                    //         transformMyRestApiErrorsToAnObject(error)
+                    //       );
+                    //       actions.setStatus({
+                    //         msg: "Set some arbitrary status or data"
+                    //       });
+                    //     }
+                    //   );
+                    // }}
+                    initialValues={{ name: "", email: "" }}
+                    onSubmit={values => alert('submit!')}
+                    validationSchema={TrialSchema}
+                    render={({
+                      values,
+                      errors,
+                      status,
+                      touched,
+                      handleBlur,
+                      handleChange,
+                      handleReset,
+                      handleSubmit,
+                      isSubmitting
+                    }) => (
+                      <form
+                        name="trial"
+                        onSubmit={handleSubmit}
+                        onReset={handleReset}
+                        data-netlify="true"
+                        data-netlify-honeypot="bot-field"
+                      >
+                        <input type="hidden" name="trial" value="trial" />
+                        <div hidden>
+                          <label>
+                            Don’t fill this out:{" "}
+                            <input name="bot-field" onChange={handleChange} />
                           </label>
-                          <div className="control">
-                            <input
-                              name="equipments"
-                              className="input"
-                              type="number"
-                              placeholder="Ex.: 10"
-                            />
-                          </div>
                         </div>
-                      </Col>
-                    </Row>
-                    <br />
-                    <button type="submit" className="confirm">SOLICITAR</button>
-                  </form>
+                        <Row>
+                          <Col>
+                            <div className="field">
+                              <label className="label">Nome</label>
+                              <div className="control">
+                                <input
+                                  name="name"
+                                  onChange={handleChange}
+                                  className="input"
+                                  type="text"
+                                  placeholder="Nome"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                          <Col>
+                            <div className="field">
+                              <label className="label">E-mail</label>
+                              <div className="control">
+                                <input
+                                  name="email"
+                                  onChange={handleChange}
+                                  className="input"
+                                  type="email"
+                                  placeholder="Ex.: joao@exemplo.com"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                          <Col>
+                            <div className="field">
+                              <label className="label">Telefone</label>
+                              <div className="control">
+                                <input
+                                  name="phone"
+                                  onChange={handleChange}
+                                  className="input"
+                                  type="text"
+                                  placeholder="(71) 9 9999 - 9999"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <br />
+                        <Row>
+                          <Col>
+                            <div className="field">
+                              <label className="label">
+                                Número de equipamentos
+                              </label>
+                              <div className="control">
+                                <input
+                                  name="equipments"
+                                  onChange={handleChange}
+                                  className="input"
+                                  type="number"
+                                  placeholder="Ex.: 10"
+                                />
+                              </div>
+                            </div>
+                          </Col>
+                        </Row>
+                        <br />
+                        <button type="submit" className="confirm">
+                          SOLICITAR
+                        </button>
+                      </form>
+                    )}
+                  />
                 </Col>
 
                 <Col xs={12} md={6}>

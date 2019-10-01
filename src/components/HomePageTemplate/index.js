@@ -22,7 +22,6 @@ const HomePageTemplate = ({
   meta_description,
   background,
   blogPosts,
-  crea,
   renault,
   vale,
   inovativa,
@@ -41,17 +40,17 @@ const HomePageTemplate = ({
   biosanear,
   milfontes,
   unimed,
-  ecologicaNordeste,
   mirasol,
+  higtop,
   pegn,
-  creaPartner,
+  g1,
+  crea,
   tecmundo,
   band,
   trucks
 }) => {
   const backgroundImage = background.childImageSharp.fluid;
   const inovativaImage = inovativa.childImageSharp.fluid;
-  const creaImage = crea.childImageSharp.fluid;
   const valeImage = vale.childImageSharp.fluid;
   const renaultImage = renault.childImageSharp.fluid;
   const senaiImage = senai.childImageSharp.fluid;
@@ -73,13 +72,14 @@ const HomePageTemplate = ({
   const biosanearImage = biosanear.childImageSharp.fluid;
   const milfontesImage = milfontes.childImageSharp.fluid;
   const unimedImage = unimed.childImageSharp.fluid;
-  const ecologicaNordesteImage = ecologicaNordeste.childImageSharp.fluid;
   const mirasolImage = mirasol.childImageSharp.fluid;
+  const higtopImage = higtop.childImageSharp.fluid;
 
   const pegnImage = pegn.childImageSharp.fluid;
-  const creaPartnerImage = creaPartner.childImageSharp.fluid;
+  const creaImage = crea.childImageSharp.fluid;
   const tecmundoImage = tecmundo.childImageSharp.fluid;
   const bandImage = band.childImageSharp.fluid;
+  const g1Image = g1.childImageSharp.fluid;
 
   const trucksImage = trucks.childImageSharp.fluid;
 
@@ -118,15 +118,15 @@ const HomePageTemplate = ({
         </div>
       </section>
 
-      <Testimonials avatar1={avatar1Image} avatar2={avatar2Image} />
+      {/* <Testimonials avatar1={avatar1Image} avatar2={avatar2Image} /> */}
 
       <Partners
         maxforte={maxforteImage}
         biosanear={biosanearImage}
         milfontes={milfontesImage}
         unimed={unimedImage}
-        ecologicaNordeste={ecologicaNordesteImage}
         mirasol={mirasolImage}
+        higtop={higtopImage}
       />
 
       <Indicators />
@@ -135,7 +135,7 @@ const HomePageTemplate = ({
         band={bandImage}
         pegn={pegnImage}
         tecmundo={tecmundoImage}
-        creaPartner={creaPartnerImage}
+        g1={g1Image}
       />
 
       <BlogList image={backgroundImage} blogPosts={blogPosts} />

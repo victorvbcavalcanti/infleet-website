@@ -12,7 +12,6 @@ const HomePage = ({ data }) => {
 
   const {
     background,
-    crea,
     inovativa,
     renault,
     senai,
@@ -27,10 +26,11 @@ const HomePage = ({ data }) => {
     biosanear,
     milfontes,
     unimed,
-    ecologicaNordeste,
     mirasol,
+    higtop,
     band,
-    creaPartner,
+    g1,
+    crea,
     tecmundo,
     pegn,
     trucks,
@@ -63,10 +63,12 @@ const HomePage = ({ data }) => {
         biosanear={biosanear}
         milfontes={milfontes}
         unimed={unimed}
-        ecologicaNordeste={ecologicaNordeste}
+        higtop={higtop}
         mirasol={mirasol}
+        higtop={higtop}
         band={band}
-        creaPartner={creaPartner}
+        g1={g1}
+        crea={crea}
         tecmundo={tecmundo}
         pegn={pegn}
         trucks={trucks}
@@ -114,13 +116,6 @@ export const pageQuery = graphql`
     background: file(relativePath: { eq: "background.png" }) {
       childImageSharp {
         fluid(maxWidth: 1024, maxHeight: 400) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    crea: file(relativePath: { eq: "crea.png" }) {
-      childImageSharp {
-        fluid(maxWidth: 1000) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -223,7 +218,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    ecologicaNordeste: file(relativePath: { eq: "ecologica-nordeste.png" }) {
+    higtop: file(relativePath: { eq: "higtop.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -251,7 +246,14 @@ export const pageQuery = graphql`
         }
       }
     }
-    creaPartner: file(relativePath: { eq: "crea-partner.png" }) {
+    g1: file(relativePath: { eq: "g1.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    crea: file(relativePath: { eq: "crea-partner.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import { Container, Row, Col } from "react-grid-system";
 
-export default function index({ band, pegn, tecmundo, creaPartner }) {
+export default function index({ band, pegn, tecmundo, g1 }) {
   return (
     <section className="press-section">
       <h1 className="is-size-2 is-size-3-mobile has-text-centered has-text-primary">
@@ -12,33 +12,23 @@ export default function index({ band, pegn, tecmundo, creaPartner }) {
         <Container>
           <Row>
             <Col xs={6} sm={6} md={3} lg={3}>
-              <div className="partner-image">
+              <div className="press-item">
                 <Img fluid={band} alt="Band" />
               </div>
             </Col>
             <Col xs={6} sm={6} md={3} lg={3}>
-              <div
-                style={{ padding: "0rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
+              <div className="press-item">
                 <Img fluid={pegn} alt="Pequenas Empresas, Grandes Negócios" />
               </div>
             </Col>
             <Col xs={6} md={3} lg={3}>
-              <div
-                id="tecmundo"
-                style={{ padding: "1.2rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
+              <div id="tecmundo" className="press-item">
                 <Img fluid={tecmundo} alt="Tecmundo" />
               </div>
             </Col>
             <Col xs={6} md={3} lg={3}>
-              <div
-                style={{ padding: "0rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
-                <Img fluid={creaPartner} alt="CREA" />
+              <div id="g1" className="press-item">
+                <Img fluid={g1} alt="Globo News" />
               </div>
             </Col>
           </Row>

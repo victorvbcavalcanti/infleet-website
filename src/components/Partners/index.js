@@ -7,8 +7,8 @@ export default function index({
   biosanear,
   milfontes,
   unimed,
-  ecologicaNordeste,
-  mirasol
+  mirasol,
+  higtop
 }) {
   return (
     <section className="partners-section">
@@ -17,47 +17,40 @@ export default function index({
       </h1>
       <div style={{ marginTop: "3rem", marginBottom: "3rem" }}>
         <Container>
-          <Row>
-            <Col xs={6} sm={6} md={3} lg={3}>
-              <div className="partner-image">
+          <Row justify="center">
+            <Col lg={4}>
+              <div id="maxforte" className="client-item">
                 <Img fluid={maxforte} alt="Maxforte" />
               </div>
             </Col>
-            <Col xs={6} sm={6} md={3} lg={3}>
-              <div
-                style={{ padding: "1.2rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
+            <Col lg={4}>
+              <div id="unimed" className="client-item">
                 <Img fluid={unimed} alt="Unimed" />
               </div>
             </Col>
-            <Col xs={6} md={3} lg={3}>
-              <div
-                id="mirasol"
-                style={{ padding: "3rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
+            <Col lg={4}>
+              <div className="client-item">
+                <Img fluid={higtop} alt="Higtop" />
+              </div>
+            </Col>
+          </Row>
+          <br />
+          <Row justify="center">
+            <Col lg={4}>
+              <div id="mirasol" className="client-item">
                 <Img fluid={mirasol} alt="Mirasol Nestlé" />
               </div>
             </Col>
-            <Col xs={6} md={3} lg={3}>
-              <div
-                style={{ padding: "2rem 0rem 0rem 0rem" }}
-                className="partner-image"
-              >
+            <Col lg={4}>
+              <div id="milfontes" className="client-item">
                 <Img fluid={milfontes} alt="Milfontes" />
               </div>
             </Col>
-            {/* <Col xs={6} md={2} lg={2}>
-              <div className="partner-image">
-                <Img fluid={ecologicaNordeste} alt="Ecologica Nordeste" />
-              </div>
-            </Col>
-            <Col xs={6} md={2} lg={2}>
-              <div className="partner-image">
+            <Col lg={4}>
+              <div id="biosanear" className="client-item">
                 <Img fluid={biosanear} alt="Biosanear" />
               </div>
-            </Col> */}
+            </Col>
           </Row>
         </Container>
       </div>

@@ -1,3 +1,37 @@
 .partners-section {
-    margin-top: 5rem;
+  margin-top: 5rem;
+}
+
+.client-item {
+  height: 10rem;
+  width: 10rem;
+  margin: 0 auto;
+}
+
+#maxforte {
+  height: 8rem;
+  width: 8rem;
+  padding-top: 0.5rem;
+}
+
+#unimed {
+  padding-top: 0.75rem;
+}
+
+#mirasol {
+  padding-top: 1.5rem;
+  height: 12rem;
+  width: 12rem;
+}
+
+#biosanear {
+  height: 11rem;
+  width: 11rem;
+  padding-top: 1.5rem;
+}
+
+@media (max-width: 769px) {
+  #unimed {
+    margin-top: 2rem;
+  }
 }

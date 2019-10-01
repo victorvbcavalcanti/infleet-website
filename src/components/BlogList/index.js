@@ -21,7 +21,7 @@ export default function index({ image, blogPosts }) {
                   <div className="blogImage">
                     <img
                       style={{ maxHeight: "100%" }}
-                      src={require(`../../../static${blog.node.frontmatter.cover}`)}
+                      // src={require(`../../../static${blog.node.frontmatter.cover}`)}
                       alt={blog.node.frontmatter.title}
                     />
                     {/* <Img fluid={image} alt="Blog" /> */}
