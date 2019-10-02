@@ -1,5 +1,5 @@
 import React from "react";
-  
+
 import { Container, Row, Col } from "react-grid-system";
 import { Formik } from "formik";
 import * as Yup from "yup";
@@ -46,34 +46,36 @@ export default function index({ isOpen, handleModal }) {
               <Row gutterWidth={48}>
                 <Col className="border-right" xs={12} md={6}>
                   <Formik
-                    // initialValues={user /** { email, social } */}
-                    // onSubmit={(values, actions) => {
-                    //   MyImaginaryRestApiCall(user.id, values).then(
-                    //     updatedUser => {
-                    //       actions.setSubmitting(false);
-                    //       updateUser(updatedUser);
-                    //       onClose();
-                    //     },
-                    //     error => {
-                    //       actions.setSubmitting(false);
-                    //       actions.setErrors(
-                    //         transformMyRestApiErrorsToAnObject(error)
-                    //       );
-                    //       actions.setStatus({
-                    //         msg: "Set some arbitrary status or data"
-                    //       });
-                    //     }
-                    //   );
-                    // }}
                     initialValues={{ name: "", email: "" }}
-                    onSubmit={values => alert('submit!')}
+                    onSubmit={(values, { setSubmitting }) => {
+                      fetch("/?no-cache=1", {
+                        method: "POST",
+                        headers: {
+                          "Content-Type": "application/x-www-form-urlencoded"
+                        },
+                        body: encode({
+                          "form-name": "trial",
+                          ...values
+                        })
+                      })
+                        .then(() => {
+                          alert("Success!");
+                          setSubmitting(false);
+                        })
+                        .catch(error => {
+                          alert("Error: Please Try Again!");
+                          setSubmitting(false);
+                        });
+
+                      alert("submit!");
+                      setSubmitting(false);
+                    }}
+                    validateOnBlur={true}
+                    validateOnChange={false}
                     validationSchema={TrialSchema}
                     render={({
-                      values,
                       errors,
-                      status,
                       touched,
-                      handleBlur,
                       handleChange,
                       handleReset,
                       handleSubmit,
@@ -106,6 +108,9 @@ export default function index({ isOpen, handleModal }) {
                                   placeholder="Nome"
                                 />
                               </div>
+                              {errors.name && (
+                                <p style={{ color: "red" }}>{errors.name}</p>
+                              )}
                             </div>
                           </Col>
                         </Row>
@@ -119,10 +124,13 @@ export default function index({ isOpen, handleModal }) {
                                   name="email"
                                   onChange={handleChange}
                                   className="input"
-                                  type="email"
+                                  type="text"
                                   placeholder="Ex.: joao@exemplo.com"
                                 />
                               </div>
+                              {errors.email && (
+                                <p style={{ color: "red" }}>{errors.email}</p>
+                              )}
                             </div>
                           </Col>
                         </Row>
