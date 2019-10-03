@@ -15,7 +15,7 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
       setClassName(activeClass);
     });
     return () => {
-      window.removeEventListener("scroll", () => console.log("desmontou"));
+      window.removeEventListener("scroll", () => console.log("Dismount"));
     };
   });
 
