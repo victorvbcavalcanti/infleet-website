@@ -5,8 +5,6 @@ import moment from "moment";
 import "moment/locale/pt-br";
 
 export default function index({ image, blogPosts }) {
-  console.log(blogPosts);
-
   return (
     <section className="bloglist-section">
       <h1 className="is-size-2 is-size-3-mobile has-text-centered has-text-primary">
