@@ -67,7 +67,7 @@
   position: absolute;
   left: 50%;
   margin-left: -1.5rem;
-  top: 17.5rem;
+  top: 19rem;
   margin-top: -4rem;
 }
 
@@ -80,12 +80,15 @@
 
 @media (min-width: 769px) {
   .box-height {
-    height: 35rem;
+    height: 38rem;
   }
 }
 
-
-
+@media (max-width: 400px) {
+  .box-height {
+    height: 38rem;
+  }
+}
 
 /* Check verde */
 .checkmark {
