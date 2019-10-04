@@ -35,6 +35,13 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://infleet.us20.list-manage.com/subscribe/post?u=9136ac66b8d881c6a7849b445&amp;id=f498d88fdc" // add your MC list endpoint here; see instructions below
+      }
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         path: `${__dirname}/src/pages`,
@@ -94,8 +101,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: config.googleTagManagerID,
-        includeInDevelopment: false,
-      },
+        includeInDevelopment: false
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
