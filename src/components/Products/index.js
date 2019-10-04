@@ -16,7 +16,7 @@ export default function index({
           <br />
           <div className="sub-heading-container">
             <h2 className="is-size-4 is-size-5-tablet is-size-5-mobile">
-              Alinhadas com o conceito de Torre de Controle logístico,
+              Alinhadas com o conceito de Torre de Controle Logístico,
               fornecemos ferramentas capazes de{" "}
               <span className="is-size-3 is-size-4-mobile">
                 <strong>economizar</strong>
@@ -92,7 +92,7 @@ export default function index({
                   </h4>
                   <p className="product-text">
                     Tenha o registro dos abastecimentos realizados e controle
-                    seus gasto com combustível
+                    seus gastos com combustível
                   </p>
                 </div>
               </div>
