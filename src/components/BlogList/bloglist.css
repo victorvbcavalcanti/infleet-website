@@ -37,7 +37,7 @@
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 6; /* number of lines to show */
+  -webkit-line-clamp: 5; /* number of lines to show */
   line-height: 1.35rem; /* fallback */
   max-height: 1rem * 6; /* fallback */
 }
