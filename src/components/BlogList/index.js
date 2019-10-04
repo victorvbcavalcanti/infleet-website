@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import { Link } from "gatsby";
 import moment from "moment";
 import "moment/locale/pt-br";
+import dashboard from "../../assets/img/dashboard.jpg";
 
 export default function index({ image, blogPosts }) {
   return (
@@ -14,11 +15,11 @@ export default function index({ image, blogPosts }) {
         <Container>
           <Row gutterWidth={48}>
             {blogPosts.map((blog, index) => (
-              <Col sm={4} key={index}>
+              <Col sm={12} md={6} lg={4} key={index}>
                 <div className="blogPost">
                   <div className="blogImage">
                     <img
-                      style={{ maxHeight: "100%" }}
+                      style={{ height: "100%", width: "100%" }}
                       src={require(`../../../static${blog.node.frontmatter.cover}`)}
                       alt={blog.node.frontmatter.title}
                     />
