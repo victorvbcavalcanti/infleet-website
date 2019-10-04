@@ -16,6 +16,8 @@ meta_description: >-
 ---
 O planejamento de rotas é uma das tarefas mais importantes de um gestor de frotas ou de logística, uma vez que está diretamente relacionado com a produtividade e eficiência da sua operação. A rota traçada precisa garantir que todos os clientes serão atendidos no horário especificado, com um uso adequado da capacidade dos veículos e com o menor percurso possível. Porém, como garantir que cada uma das variáveis envolvidas na operação logística serão otimizadas, de modo que aquela rota represente o melhor cenário operacional possível? Quando feita de maneira manual a roteirização torna-se um tarefa que consome tempo do gestor, baseando-se principalmente na sua experiência e bom senso. Entretanto, isto não garante que de fato a rota escolhida é a melhor. Para solucionar esse problema foram desenvolvidos sistemas de roteirização que permitem otimizar o percurso de maneira rápida e confiável. Aqui apresentamos alguns benefícios do uso desses sistemas.
 
+---
+
 ## 1. RAPIDEZ NA CRIAÇÃO DO ROTEIRO
 
 Os sistemas de roteirização permitem que o gestor crie diversas rotas e teste cenários diferentes de percursos em um tempo muito inferior ao tempo demandado para a criação manual de rotas. Desta forma, o gestor terá maior flexibilidade para a criação de roteiros, podendo modificá-los rapidamente em casos de mudanças operacionais como a adição de um novo cliente ou problema com a disponibilidade de um veículo. Em apenas poucos minutos o software pode calcular a melhor rota de acordo com as restrições apresentadas pelo gestor.
@@ -37,4 +39,6 @@ Em alguns casos, a ineficiência da rota criada para a prestação dos serviços
 O software de roteirização pode ser associado a uma plataforma de gestão de frotas para acompanhar a evolução dos indicadores operacionais, permitindo ao gestor uma tomada de decisão mais rápida e assertiva, baseada em evidências numéricas e dados estatísticos e não apenas na sua experiência e bom senso.
 
 A INFLEET oferece uma solução completa de gestão de frotas na qual é possível roteirizar, monitorar os seus veículos e gerar relatórios com as informações mais relevantes para o seu controle operacional.
+
+---
 
