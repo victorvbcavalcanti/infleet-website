@@ -32,7 +32,7 @@ A torre tem três pilares fundamentais: análise, organização e visualização
 
 ![Torre de Controle Logístico](/img/torre-de-controle-logistico.webp "Torre de Controle Logístico")
 
-\## TORRE DE GESTÃO LOGÍSTICA E TRANSPORTE
+## TORRE DE GESTÃO LOGÍSTICA E TRANSPORTE
 
 No área específica de transportes, a Torre de Gestão Logística trabalha com alguns processos:
 
@@ -44,12 +44,12 @@ No área específica de transportes, a Torre de Gestão Logística trabalha com 
 
 - - -
 
-\## BENEFÍCIOS DA TORRE
+## BENEFÍCIOS DA TORRE
 
 Ao informar em tempo real os principais KPIs associados a operação da empresa e alertas sobre eventos inesperados, a Torre de Gestão Logística permite que ações para soluções dos problemas sejam tomadas de maneira mais ágil com indicação de quem é o responsável pela ação e em quanto tempo ela deve ser realizada.
 
 A torre não é usada somente para dar visibilidade ao processo mas também para a previsão de cenários com base em possíveis eventos fora do planejamento.
 
-\## PARA SUA EMPRESA
+## PARA SUA EMPRESA
 
 A INFLEET trabalha com o conceito de Torre de Gestão Logística para fornecer aos seus clientes uma visão completa do estado do seu negócio e pontos de melhoria para contribuir para uma melhor gestão e redução de custos. Teste gratuitamente os módulos de gestão: roteirização, monitoramento, telemetria e gestão de abastecimento
