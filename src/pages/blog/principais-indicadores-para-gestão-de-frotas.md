@@ -11,8 +11,6 @@ meta_description: Indicadores de gestão
 ---
 
 
-
-
 Como saber se a minha frota está dimensionada corretamente? Como saber o momento ideal para atualização da minha frota? Como planejar manutenções da frota? Como calcular custos operacionais para definir preços dos serviços? Como avaliar a qualidade dos meus processos?
 
 Essas são algumas perguntas que a gestão de indicadores irá ajudar o gestor de frotas a responder.
