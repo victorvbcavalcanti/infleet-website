@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-grid-system";
 import { Link } from "gatsby";
 import moment from "moment";
 import "moment/locale/pt-br";
-import dashboard from "../../assets/img/dashboard.jpg";
 
 export default function index({ image, blogPosts }) {
   return (
