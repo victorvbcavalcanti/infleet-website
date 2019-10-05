@@ -58,6 +58,17 @@ export default class BlogPage extends Component {
             </div>
           </div>
         </section>
+        <h1
+          style={{
+            fontSize: "2rem",
+            fontWeight: "400",
+            textAlign: "center",
+            color: "gray",
+            marginBottom: "2rem"
+          }}
+        >
+          Acesse o conteúdo preparado por nossos especialistas em logística.
+        </h1>
         <section className="section">
           <PostCard posts={group} />
           <section className="section">

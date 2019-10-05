@@ -19,7 +19,7 @@ export default function index({ image, blogPosts }) {
                   <div className="blogImage">
                     <img
                       style={{ height: "100%", width: "100%" }}
-                      src={require(`../../../static${blog.node.frontmatter.cover}`)}
+                      src={blog.node.frontmatter.cover}
                       alt={blog.node.frontmatter.title}
                     />
                   </div>

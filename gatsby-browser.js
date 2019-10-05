@@ -11,6 +11,7 @@ import "./src/components/Newsletter/newsletter.css";
 import "./src/components/ContactForm/contactform.css";
 import "./src/components/TestModal/testmodal.css";
 import "./src/components/HomePageTemplate/utils.css";
+import "./src/components/PostCard/postcard.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

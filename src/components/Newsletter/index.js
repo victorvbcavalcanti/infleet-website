@@ -12,7 +12,6 @@ export default function index() {
     e.preventDefault();
     addToMailchimp(input) // listFields are optional if you are only capturing the email address.
       .then(data => {
-        console.log(data);
         setResult(data);
         // I recommend setting data to React state
         // but you can do whatever you want (including ignoring this `then()` altogether)
