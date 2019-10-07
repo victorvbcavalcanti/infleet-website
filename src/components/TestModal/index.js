@@ -181,8 +181,8 @@ export default function index({ isOpen, handleModal }) {
 
                   <Col xs={12} md={6}>
                     <p className="explain">
-                      Em caso de qualquer dúvida, não hesite em nos contatar! :
-                      )
+                      Nosso consultor entrará em contato em até 24h para
+                      fornecer maiores informações : )
                     </p>
                     <br />
                     <div className="test-info">
