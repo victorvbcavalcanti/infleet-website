@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import { FaCheck } from "react-icons/fa";
 
-export default function router({ routerFeature }) {
+export default function router({ routerFeature, handleModal }) {
   return (
     <div>
       <div style={{ paddingTop: "6rem" }} id="router-link"></div>
@@ -18,7 +18,7 @@ export default function router({ routerFeature }) {
           <div className="mobile-container">
             <div className="feature-title">
               <h3 className="is-size-3">Roteirizador</h3>
-             <h4 className="is-size-5">
+              <h4 className="is-size-5">
                 Perfeito para otimização de processos
               </h4>
             </div>
@@ -62,6 +62,12 @@ export default function router({ routerFeature }) {
             </div>
           </div>
         </div>
+        <div></div>
+      </div>
+      <div style={{ textAlign: "center" }}>
+        <button onClick={() => handleModal(true)} className="button-test">
+          Teste grátis
+        </button>
       </div>
     </div>
   );

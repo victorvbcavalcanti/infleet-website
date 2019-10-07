@@ -63,6 +63,11 @@ export default function maintenance({ maintenanceFeature }) {
           </div>
         </div>
       </div>
+      <div style={{ textAlign: "center" }}>
+        <button onClick={() => handleModal(true)} className="button-test">
+          Teste grátis
+        </button>
+      </div>
     </div>
   );
 }

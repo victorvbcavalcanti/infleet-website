@@ -111,7 +111,7 @@ const HomePageTemplate = ({
 
       <section className="features-section">
         <div className="container">
-          <Router routerFeature={routerFeatureImage} />
+          <Router routerFeature={routerFeatureImage} handleModal={setModal} />
           <Monitoring monitorFeature={monitorFeatureImage} />
           <Maintenance maintenanceFeature={maintenanceFeatureImage} />
           <Fuelling fuellingFeature={fuellingFeatureImage} />
