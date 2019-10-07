@@ -45,7 +45,7 @@ export default class BlogPage extends Component {
             {JSON.stringify(websiteSchemaOrgJSONLD)}
           </script>
         </Helmet>
-        <section className="hero is-primary is-bold position-section">
+        {/* <section className="hero is-primary is-bold position-section">
           <div className="hero-body">
             <div className="container">
               <div className="columns">
@@ -57,7 +57,7 @@ export default class BlogPage extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <h1
           style={{
             fontSize: "2rem",
