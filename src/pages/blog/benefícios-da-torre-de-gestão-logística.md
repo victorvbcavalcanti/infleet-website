@@ -3,7 +3,7 @@ templateKey: article-page
 title: Benefícios da Torre de Gestão Logística
 slug: Benefícios da Torre de Gestão Logística
 date: 2019-10-04T16:44:08.222Z
-cover: /img/torre-de-gestao-logistica.webp
+cover: /img/torre-de-gestao-logistica.jpg
 tags:
   - controle
 meta_title: Roteirizador
