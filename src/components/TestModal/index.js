@@ -191,7 +191,7 @@ export default function index({ isOpen, handleModal }) {
                     </div>
                     <div className="test-info">
                       <FaPhone className="test-icon" />
-                      <p>(71) 9 9999-9999</p>
+                      <p>(71) 9 9221-8179</p>
                     </div>
                     <br />
                     <p>Atenciosamente,</p>
