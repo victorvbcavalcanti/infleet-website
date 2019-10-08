@@ -41,7 +41,8 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
         // Verification to pass production build
         if (typeof window !== `undefined`) {
           const isBlogArticle = window.location.href.split("/blog/");
-          if (isBlogArticle[1] !== undefined) {
+          const isBlog = window.location.href.split("/blog");
+          if (isBlogArticle[1] !== undefined || isBlog[1] !== undefined) {
             finalClassName = "normal";
           }
         }
@@ -87,21 +88,21 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    href="/#monitor-link"
+                    to="/#monitor-link"
                   >
                     Monitoramento
                   </Link>
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    href="/#maintenance-link"
+                    to="/#maintenance-link"
                   >
                     Manutenção
                   </Link>
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    href="/#fuelling-link"
+                    to="/#fuelling-link"
                   >
                     Abastecimento
                   </Link>

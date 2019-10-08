@@ -64,7 +64,8 @@ export default class BlogPage extends Component {
             fontWeight: "400",
             textAlign: "center",
             color: "gray",
-            marginBottom: "2rem"
+            marginBottom: "2rem",
+            marginTop: "5rem"
           }}
         >
           Acesse o conteúdo preparado por nossos especialistas em logística.
