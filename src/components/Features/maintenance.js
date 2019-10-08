@@ -2,7 +2,7 @@ import React from "react";
 import Img from "gatsby-image";
 import { FaCheck } from "react-icons/fa";
 
-export default function maintenance({ maintenanceFeature }) {
+export default function maintenance({ maintenanceFeature, handleModal }) {
   return (
     <div className="feature">
       <div style={{ paddingTop: "6rem" }} id="maintenance-link"></div>

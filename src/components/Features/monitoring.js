@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-grid-system";
 import Img from "gatsby-image";
 import { FaCheck } from "react-icons/fa";
 
-export default function monitoring({ monitorFeature }) {
+export default function monitoring({ monitorFeature, handleModal }) {
   return (
     <div className="feature">
       <div style={{ paddingTop: "4rem" }} id="monitor-link"></div>

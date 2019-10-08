@@ -3,7 +3,7 @@ import Img from "gatsby-image";
 import { Container, Row, Col } from "react-grid-system";
 import { FaCheck } from "react-icons/fa";
 
-export default function fuelling({ fuellingFeature }) {
+export default function fuelling({ fuellingFeature, handleModal }) {
   return (
     <div className="feature">
       <div style={{ paddingTop: "6rem" }} id="fuelling-link"></div>
