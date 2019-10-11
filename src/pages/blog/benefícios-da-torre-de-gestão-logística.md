@@ -6,13 +6,11 @@ date: 2019-10-04T16:44:08.222Z
 cover: /img/torre-de-gestao-logistica.jpg
 tags:
   - controle
-meta_title: Roteirizador
+meta_title: Torre de Controle Logística
 meta_description: >-
-  O planejamento de rotas é uma das tarefas mais importantes de um gestor de
-  frotas ou de logística, uma vez que está diretamente relacionado com a
-  produtividade e eficiência da sua operação. A rota traçada precisa garantir
-  que todos os clientes serão atendidos no horário especificado, com um uso
-  adequado da capacidade dos veículos e com o menor percurso possível.
+  A Torre de Gestão Logística é uma solução de ponta a ponta da cadeia
+  logística. Ela é uma plataforma central que captura e interconecta dados
+  internos da empresa, seus fornecedores e clientes. Saiba mais!
 ---
 No cenário competitivo atual com mercados globalizados e integrados, produção Just-in-Time além da necessidade de redução de estoques e de custos, há um aumento da complexidade das cadeias de suprimentos.
 
