@@ -25,7 +25,7 @@ export default function maintenance({ maintenanceFeature, handleModal }) {
             <div className="feature-description">
               <p>
                 Realize o controle das manutenções corretivas e preventivas dos
-                seus veículos e equipamentos para otimizar seus custos
+                seus veículos e equipamentos para reduzir seus custos
               </p>
             </div>
             <div className="feature-items">
@@ -38,7 +38,7 @@ export default function maintenance({ maintenanceFeature, handleModal }) {
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
-                      Registro de ordem de serviço
+                      Alertas de manutenção
                     </li>
                     <li>
                       <FaCheck className="feature-icon" />
@@ -48,6 +48,10 @@ export default function maintenance({ maintenanceFeature, handleModal }) {
                 </div>
                 <div className="column is-half">
                   <ul className="feature-list">
+                  <li>
+                      <FaCheck className="feature-icon" />
+                      Registro de ordem de serviço
+                    </li>
                     <li>
                       <FaCheck className="feature-icon" />
                       Controle de custos

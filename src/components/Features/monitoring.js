@@ -43,9 +43,10 @@ export default function monitoring({ monitorFeature, handleModal }) {
                         <FaCheck className="feature-icon" />
                         Pontos de parada
                       </li>
+
                       <li>
                         <FaCheck className="feature-icon" />
-                        Horas ligado + Horas parado
+                        Horas ligado <br></br>+ Horas parado
                       </li>
                     </ul>
                   </div>
@@ -57,7 +58,11 @@ export default function monitoring({ monitorFeature, handleModal }) {
                       </li>
                       <li>
                         <FaCheck className="feature-icon" />
-                        Alertas de manutenção
+                        Histórico de rotas
+                      </li>
+                      <li>
+                        <FaCheck className="feature-icon" />
+                        Acelerações, curvas e frenagens bruscas
                       </li>
                     </ul>
                   </div>

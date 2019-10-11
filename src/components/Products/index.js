@@ -75,8 +75,8 @@ export default function index({
                     <strong>Manutenção</strong>
                   </h4>
                   <p className="product-text">
-                    Controle as ordens de serviço considerando os planos de
-                    manutenção de cada veículo
+                    Receba alertas e controle as ordens de serviço considerando
+                    os planos de manutenção de cada veículo
                   </p>
                 </div>
               </div>
@@ -91,8 +91,8 @@ export default function index({
                     <strong>Abastecimento</strong>
                   </h4>
                   <p className="product-text">
-                    Tenha o registro dos abastecimentos realizados e controle
-                    seus gastos com combustível
+                    Reduza os custos com combustível acompanhando a autonomia
+                    da sua frota e histórico de abastecimentos
                   </p>
                 </div>
               </div>

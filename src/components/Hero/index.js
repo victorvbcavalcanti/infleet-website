@@ -20,10 +20,12 @@ export default function index({
           <div id="hero" className="hero-body">
             <div className="container">
               <h1 className="has-text-white position-hero">
-                Fornecemos tecnologia de ponta para a sua frota.
+                Tecnologia de ponta para gestão de frotas
               </h1>
-              <h3 className="has-text-grey-light position-hero--sub">
-                Reduzimos seus custos e otimizamos sua operação logística.
+              <h3 className="has-text-grey-lighter position-hero--sub">
+                Maior transparência da sua operação através de
+                plataformas modulares de roteirização, manutenção, monitoramento
+                e abastecimento.
               </h3>
               <div className="">
                 <button

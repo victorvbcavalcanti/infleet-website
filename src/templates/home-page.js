@@ -295,7 +295,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    fuellingFeature: file(relativePath: { eq: "fuelling-feature.webp" }) {
+    fuellingFeature: file(relativePath: { eq: "fuelling-feature.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

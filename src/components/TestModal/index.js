@@ -156,7 +156,7 @@ export default function index({ isOpen, handleModal }) {
                             <Col>
                               <div className="field">
                                 <label className="label">
-                                  Número de equipamentos
+                                  Número de veículos / equipamentos
                                 </label>
                                 <div className="control">
                                   <input
