@@ -5,14 +5,15 @@ slug: 5 benefícios da otimização de rotas
 date: 2019-10-04T16:44:08.222Z
 cover: /img/roteirizador.jpeg
 tags:
-  - roteirizador
+  - ''
 meta_title: Roteirizador
 meta_description: >-
   O planejamento de rotas é uma das tarefas mais importantes de um gestor de
   frotas ou de logística, uma vez que está diretamente relacionado com a
   produtividade e eficiência da sua operação. A rota traçada precisa garantir
   que todos os clientes serão atendidos no horário especificado, com um uso
-  adequado da capacidade dos veículos e com o menor percurso possível.
+  adequado da capacidade dos veículos e com o menor percurso possível. Veja como
+  otimizar rotas!
 ---
 O planejamento de rotas é uma das tarefas mais importantes de um gestor de frotas ou de logística, uma vez que está diretamente relacionado com a produtividade e eficiência da sua operação. A rota traçada precisa garantir que todos os clientes serão atendidos no horário especificado, com um uso adequado da capacidade dos veículos e com o menor percurso possível. Porém, como garantir que cada uma das variáveis envolvidas na operação logística serão otimizadas, de modo que aquela rota represente o melhor cenário operacional possível? Quando feita de maneira manual a roteirização torna-se um tarefa que consome tempo do gestor, baseando-se principalmente na sua experiência e bom senso. Entretanto, isto não garante que de fato a rota escolhida é a melhor. Para solucionar esse problema foram desenvolvidos sistemas de roteirização que permitem otimizar o percurso de maneira rápida e confiável. Aqui apresentamos alguns benefícios do uso desses sistemas.
 
