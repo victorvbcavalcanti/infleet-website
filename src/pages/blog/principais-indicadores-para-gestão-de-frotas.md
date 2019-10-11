@@ -15,18 +15,15 @@ Essas são algumas perguntas que a gestão de indicadores irá ajudar o gestor d
 
 - - -
 
-
-
 ## _POR QUE OS INDICADORES SÃO IMPORTANTES?_
 
 > Aquilo que não se mede não se pode melhorar.
-
 
 Os indicadores sobre performance de frotas de transporte permitem o controle, análise e melhoria de processos organizacionais, a fim de permitir a integração dos processos dos diversos setores para a convergência das metas micro e macro da empresa. Com base nas informações quantitativas fornecidas por estes indicadores é possível realizar uma avaliação crítica do desempenho do sistema de transporte e logística, bem como da qualidade do serviço prestado.
 
 Indicadores de gestão de frotas fornecem os dados necessários para o gestor ter o pleno e completo entendimento da situação operacional, fornecendo as bases para avaliar os desperdícios definir plano de ação, direcionar o foco e os recursos para atingir os objetivos e metas traçadas.
 
----
+- - -
 
 ## COMO DEFINIR UM INDICADOR?
 
@@ -34,7 +31,7 @@ Um indicador deve ser usado para facilitar o processo de tomada de decisão pelo
 
 O custo para a aquisição dos dados que permitirão o cálculo dos indicadores deve ser baixo para que se tenha um bom retorno sobre este investimento através da redução de custos via melhoria de processos.
 
---- 
+- - -
 
 ## QUAIS SÃO OS INDICADORES MAIS IMPORTANTES?
 
@@ -54,11 +51,10 @@ O principais indicadores para gestão de frota são:
 
 **Taxa de acidentes e sinistralidade:** A taxa de acidentes e sinistralidade permite rastrear locais de maior chance de ocorrem roubo de carga para otimizar a rota de entrega e também o modo de condução dos motoristas. É possível avaliar se um motorista específico está cometendo muitas infrações e necessita de treinamento, por exemplo. O custo com esses eventos são mais difíceis de prever porém uma análise de padrões pode contribuir para melhorias que ajudem a minimizá-los.
 
----
+- - -
 
 ## CONHEÇA NOSSOS MÓDULOS DE GESTÃO
 
 Indicadores de gestão de frotas podem evidenciar custos que podem ser reduzidos e melhorias que irão contribuir para prolongar a vida útil da frota. O comparativo entre esses indicadores irá oferecer uma visão real sobre a qualidade dos processos da empresa e os seus resultados, permitindo um melhor alinhamento para tomada de decisões e desenvolvimento de novos processos.
 
 Os módulos de gestão INFLEET podem contribuir com os indicadores da sua operação através dos sistemas de roteirização, monitoramento, telemetria e controle de manutenção e abastecimento. Entre em contato para realizar testes grátis.
-
