@@ -6,13 +6,13 @@ date: 2019-10-11T13:22:27.343Z
 cover: /img/terceirizar-frota.jpg
 tags:
   - ''
-meta_title: Devo terceirizar minha frota
+meta_title: Terceirização de frota
 meta_description: >-
   Os custos com compra, manutenção e taxas de veículos em uma frota e a
   aquisição de softwares para a gestão representam para muitas empresas parcela
-  significativa dos custos com transporte. Além disso, a necessidade de uma
-  equipe responsável pela frota, em muitos casos, representa um desvio com
-  relação à atividade principal da empresa.
+  significativa dos custos com transporte. Diante disso, é importante tomar a
+  decisão quanto à compra ou terceirização da frota operacional. Saiba como
+  decidir!
 ---
 Os custos com compra, manutenção e taxas de veículos em uma frota e a aquisição de softwares para a gestão representam para muitas empresas parcela significativa dos custos com transporte. Além disso, a necessidade de uma equipe responsável pela frota, em muitos casos, representa um desvio com relação à atividade principal da empresa. Diante disso, muitos gestores de frota se perguntam se é mais vantajoso financeiramente e estrategicamente para a sua empresa possuir uma frota própria ou terceirizada. Neste texto, iremos discutir as vantagens de terceirizar uma frota e como isso pode impactar na operação da empresa.
 
