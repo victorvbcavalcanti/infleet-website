@@ -81,28 +81,28 @@ const NavBar = ({ toggleNavbar, isActive, ...rest }) => {
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to={`/#router-link`}
+                    to={`/#roteirizador`}
                   >
                     Roteirizador
                   </Link>
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/#monitor-link"
+                    to="/#monitoramento"
                   >
                     Monitoramento
                   </Link>
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/#maintenance-link"
+                    to="/#gestao-de-manutencao"
                   >
                     Manutenção
                   </Link>
                   <Link
                     style={{ color: isActive ? "black" : "white" }}
                     className="navbar-item"
-                    to="/#fuelling-link"
+                    to="/#gestao-de-abastecimento"
                   >
                     Abastecimento
                   </Link>

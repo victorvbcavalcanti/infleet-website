@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 export default function maintenance({ maintenanceFeature, handleModal }) {
   return (
     <div className="feature">
-      <div style={{ paddingTop: "6rem" }} id="maintenance-link"></div>
+      <div style={{ paddingTop: "6rem" }} id="gestao-de-manutencao"></div>
       <div className="columns is-multiline is-variable is-6">
         <div className="column is-half">
           <div className="mobile-container">

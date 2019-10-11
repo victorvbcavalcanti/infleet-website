@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 export default function fuelling({ fuellingFeature, handleModal }) {
   return (
     <div className="feature">
-      <div style={{ paddingTop: "6rem" }} id="fuelling-link"></div>
+      <div style={{ paddingTop: "6rem" }} id="gestao-de-abastecimento"></div>
       <Container>
         <Row>
           <Col lg={6} push={{ lg: 6 }}>

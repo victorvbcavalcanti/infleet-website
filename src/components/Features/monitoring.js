@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 export default function monitoring({ monitorFeature, handleModal }) {
   return (
     <div className="feature">
-      <div style={{ paddingTop: "4rem" }} id="monitor-link"></div>
+      <div style={{ paddingTop: "4rem" }} id="monitoramento"></div>
       <Container>
         <Row>
           <Col lg={6} push={{ lg: 6 }}>
