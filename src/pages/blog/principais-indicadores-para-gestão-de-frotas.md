@@ -7,7 +7,11 @@ cover: /img/principais-indicadores.jpg
 tags:
   - indicadores
 meta_title: Indicadores para gestão de frota
-meta_description: Indicadores de gestão
+meta_description: >-
+  Como saber se a minha frota está dimensionada corretamente? Como saber o
+  momento ideal para atualização da minha frota? Como planejar manutenções da
+  frota? Como calcular custos operacionais para definir preços dos serviços?
+  Como avaliar a qualidade dos meus processos? Veja agora!
 ---
 Como saber se a minha frota está dimensionada corretamente? Como saber o momento ideal para atualização da minha frota? Como planejar manutenções da frota? Como calcular custos operacionais para definir preços dos serviços? Como avaliar a qualidade dos meus processos?
 
