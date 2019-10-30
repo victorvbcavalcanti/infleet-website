@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
-title: Como uma solução monitoramento melhorou a gestão da UFBA
-slug: Como uma solução monitoramento melhorou a gestão da UFBA
+title: Como uma solução de monitoramento melhorou a gestão da UFBA
+slug: Como uma solução de monitoramento melhorou a gestão da UFBA
 date: 2019-10-30T18:09:52.611Z
 cover: /img/buzufba-gestao-frota-onibus.jpg
 tags:
