@@ -98,6 +98,26 @@ export default function index({ isOpen, handleModal }) {
                           <Row>
                             <Col>
                               <div className="field">
+                                <label className="label">Empresa</label>
+                                <div className="control">
+                                  <input
+                                    name="company"
+                                    onChange={handleChange}
+                                    className="input"
+                                    type="text"
+                                    placeholder="Ex.: Transporte e Distribuição S.A."
+                                  />
+                                </div>
+                                {errors.name && (
+                                  <p style={{ color: "red" }}>{errors.name}</p>
+                                )}
+                              </div>
+                            </Col>
+                          </Row>
+                          <br />
+                          <Row>
+                            <Col>
+                              <div className="field">
                                 <label className="label">Nome</label>
                                 <div className="control">
                                   <input
@@ -105,7 +125,7 @@ export default function index({ isOpen, handleModal }) {
                                     onChange={handleChange}
                                     className="input"
                                     type="text"
-                                    placeholder="Nome"
+                                    placeholder="Ex.: João Silva"
                                   />
                                 </div>
                                 {errors.name && (
