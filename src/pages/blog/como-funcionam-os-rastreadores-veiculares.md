@@ -33,6 +33,6 @@ As principais tecnologias usadas para rastreamento são:
 
 Outras tecnologias estão surgindo, a partir do conceito de Internet das Coisas, como a Sigfox e LoRa, e já estão sendo aplicadas comercialmente no ramo de rastreamento.
 
-Gostou do nosso conteúdo e quer saber mais sobre as tecnologias de rastreamento? Leia também este post: Os rastreadores dependem de sinal de telefonia para funcionar? 
+Gostou do nosso conteúdo e quer saber mais sobre as tecnologias de rastreamento? Leia também este post: [Os rastreadores dependem de sinal de telefonia para funcionar? ](https://www.infleet.com.br/blog/os-rastreadores-dependem-de-sinal-de-telefonia-para-funcionar/)
 
 \#monitoramento #rastreamento #gestaodefrotas #frota #veiculo #telemetria
