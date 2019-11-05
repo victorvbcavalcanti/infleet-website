@@ -2,7 +2,7 @@
 templateKey: article-page
 title: Por que devo fazer a gestão de manutenção da minha frota?
 slug: Por que devo fazer a gestao de manutençao da minha frota?
-date: 2019-11-05T19:14:43.994Z
+date: 2019-11-04T19:14:43.994Z
 cover: /img/manutencao-preventiva-corretiva-frotas.jpg
 tags:
   - manutenção corretiva
