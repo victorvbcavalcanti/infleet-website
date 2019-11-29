@@ -23,4 +23,4 @@ Entretanto, os caminhões estão envolvidos em apenas 20% dos acidentes, as moto
 
 **QUAIS SÃO OS IMPACTOS DOS ACIDENTES DE TRÂNSITO NA SUA EMPRESA?**
 
-Os acidentes podem representar uma série de problemas para a sua empresa. Acidentes de trabalho com motoristas, custos com manutenção ou compra de veículos, gastos com seguro, perda de carga, além do atraso na operação.  No próximo post falaremos quais são os principais motivos de acidentes envolvendo caminhões, confira aqui!
+Os acidentes podem representar uma série de problemas para a sua empresa. Acidentes de trabalho com motoristas, custos com manutenção ou compra de veículos, gastos com seguro, perda de carga, além do atraso na operação.  No próximo post falaremos quais são os principais motivos de acidentes envolvendo caminhões, [confira aqui!](https://www.infleet.com.br/blog/os-principais-motivos-de-acidentes-envolvendo-caminh%C3%B5es-no-tr%C3%A2nsito/)
