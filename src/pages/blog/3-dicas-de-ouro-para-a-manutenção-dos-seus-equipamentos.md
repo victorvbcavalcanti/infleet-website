@@ -2,7 +2,7 @@
 templateKey: article-page
 title: 3 dicas de ouro para a manutenção dos seus equipamentos
 slug: 3 dicas de ouro para a manutenção dos seus equipamentos
-date: 2020-01-14T16:28:18.667Z
+date: 2020-01-13T16:28:18.667Z
 cover: /img/manutencao-gestao-frotas-equipamentos-veiculos.jpg
 tags:
   - manutenção
