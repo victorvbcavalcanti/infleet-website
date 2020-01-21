@@ -2,7 +2,7 @@
 templateKey: article-page
 title: 4 Dicas para a avaliação de desempenho do seu motorista
 slug: 4 Dicas para a avaliação de desempenho do seu motorista
-date: 2020-01-21T17:36:07.884Z
+date: 2020-01-20T17:36:07.884Z
 cover: /img/gestao-motorista-frotas-caminhoneiro.jpg
 tags:
   - motorista
