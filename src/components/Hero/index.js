@@ -23,12 +23,13 @@ export default function index({
                 Tecnologia de ponta para gestão de frotas
               </h1>
               <h3 className="has-text-grey-lighter position-hero--sub">
-                Maior transparência da sua operação através de
-                plataformas modulares de roteirização, manutenção, monitoramento
-                e abastecimento.
+                Maior transparência da sua operação através de plataformas
+                modulares de roteirização, manutenção, monitoramento e
+                abastecimento.
               </h3>
               <div className="">
                 <button
+                  id="hero-button"
                   onClick={() => handleModal(true)}
                   className="button-test"
                 >
