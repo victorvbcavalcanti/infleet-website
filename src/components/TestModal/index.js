@@ -47,6 +47,16 @@ export default function index({ isOpen, handleModal }) {
                     <Formik
                       initialValues={{ name: "", email: "" }}
                       onSubmit={(values, { setSubmitting }) => {
+                        if (values.email === "teste@teste.com") {
+                          setSubmit(false);
+                          setSubmitting(false);
+                          setTimeout(() => {
+                            handleModal();
+                            setSubmit(true);
+                          }, 1500);
+                          return;
+                        }
+
                         fetch("/?no-cache=1", {
                           method: "POST",
                           headers: {
