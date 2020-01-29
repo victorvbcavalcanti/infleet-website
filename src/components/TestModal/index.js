@@ -7,10 +7,13 @@ import { IoMdMail } from "react-icons/io";
 import { FaPhone } from "react-icons/fa";
 
 const TrialSchema = Yup.object().shape({
+  company: Yup.string().required("Campo obrigatório"),
   name: Yup.string().required("Campo obrigatório"),
   email: Yup.string()
     .email("E-mail inválido")
-    .required("Campo obrigatório")
+    .required("Campo obrigatório"),
+  phone: Yup.string().required("Campo obrigatório"),
+  equipments: Yup.number("Apenas números").required("Campo obrigatório")
 });
 
 const encode = data => {
@@ -118,8 +121,10 @@ export default function index({ isOpen, handleModal }) {
                                     placeholder="Ex.: Transporte e Distribuição S.A."
                                   />
                                 </div>
-                                {errors.name && (
-                                  <p style={{ color: "red" }}>{errors.name}</p>
+                                {errors.company && (
+                                  <p style={{ color: "red" }}>
+                                    {errors.company}
+                                  </p>
                                 )}
                               </div>
                             </Col>
@@ -178,6 +183,9 @@ export default function index({ isOpen, handleModal }) {
                                     placeholder="(71) 9 9999 - 9999"
                                   />
                                 </div>
+                                {errors.phone && (
+                                  <p style={{ color: "red" }}>{errors.phone}</p>
+                                )}
                               </div>
                             </Col>
                           </Row>
@@ -197,6 +205,11 @@ export default function index({ isOpen, handleModal }) {
                                     placeholder="Ex.: 10"
                                   />
                                 </div>
+                                {errors.equipments && (
+                                  <p style={{ color: "red" }}>
+                                    {errors.equipments}
+                                  </p>
+                                )}
                               </div>
                             </Col>
                           </Row>
