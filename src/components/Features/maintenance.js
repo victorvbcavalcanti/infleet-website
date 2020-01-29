@@ -48,7 +48,7 @@ export default function maintenance({ maintenanceFeature, handleModal }) {
                 </div>
                 <div className="column is-half">
                   <ul className="feature-list">
-                  <li>
+                    <li>
                       <FaCheck className="feature-icon" />
                       Registro de ordem de serviço
                     </li>
@@ -68,7 +68,11 @@ export default function maintenance({ maintenanceFeature, handleModal }) {
         </div>
       </div>
       <div style={{ textAlign: "center" }}>
-        <button onClick={() => handleModal(true)} className="button-test">
+        <button
+          id="maintenance"
+          onClick={() => handleModal(true)}
+          className="button-test"
+        >
           Teste grátis
         </button>
       </div>

@@ -65,7 +65,11 @@ export default function router({ routerFeature, handleModal }) {
         <div></div>
       </div>
       <div style={{ textAlign: "center" }}>
-        <button onClick={() => handleModal(true)} className="button-test">
+        <button
+          id="router"
+          onClick={() => handleModal(true)}
+          className="button-test"
+        >
           Teste grátis
         </button>
       </div>

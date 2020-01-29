@@ -73,7 +73,11 @@ export default function monitoring({ monitorFeature, handleModal }) {
         </Row>
       </Container>
       <div style={{ textAlign: "center" }}>
-        <button onClick={() => handleModal(true)} className="button-test">
+        <button
+          id="monitoring"
+          onClick={() => handleModal(true)}
+          className="button-test"
+        >
           Teste grátis
         </button>
       </div>

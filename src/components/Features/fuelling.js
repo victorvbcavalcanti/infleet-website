@@ -67,7 +67,11 @@ export default function fuelling({ fuellingFeature, handleModal }) {
         </Row>
       </Container>
       <div style={{ textAlign: "center" }}>
-        <button onClick={() => handleModal(true)} className="button-test">
+        <button
+          id="fuelling"
+          onClick={() => handleModal(true)}
+          className="button-test"
+        >
           Teste grátis
         </button>
       </div>
