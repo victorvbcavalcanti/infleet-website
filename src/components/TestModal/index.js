@@ -201,7 +201,11 @@ export default function index({ isOpen, handleModal }) {
                             </Col>
                           </Row>
                           <br />
-                          <button type="submit" className="confirm">
+                          <button
+                            id="request-button"
+                            type="submit"
+                            className="confirm"
+                          >
                             SOLICITAR
                           </button>
                         </form>
