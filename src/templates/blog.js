@@ -32,14 +32,20 @@ export default class BlogPage extends Component {
       "@context": "http://schema.org",
       "@type": "WebSite",
       url: config.siteUrl,
-      name: config.siteTitle,
-      alternateName: config.siteTitleAlt ? config.siteTitleAlt : ""
+      name: `${config.siteTitle}-${index + 1}`,
+      alternateName: config.siteTitleAlt
+        ? `${config.siteTitleAlt}-${index + 1}`
+        : ""
     };
 
     return (
       <Layout>
         <Helmet>
-          <title>Blog | INFLEET</title>
+          <title>Blog | INFLEET |{` Página ${index}`}</title>
+          <meta
+            name="description"
+            content={`Pagina do blog Infleet numero ${index}`}
+          />
           {/* Schema.org tags */}
           <script type="application/ld+json">
             {JSON.stringify(websiteSchemaOrgJSONLD)}
