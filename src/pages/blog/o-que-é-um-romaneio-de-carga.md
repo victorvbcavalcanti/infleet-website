@@ -2,7 +2,7 @@
 templateKey: article-page
 title: 'O que é um romaneio de carga? '
 slug: romaneio de carga frota caminhões
-date: 2020-02-04T13:46:35.508Z
+date: 2020-02-03T13:46:35.508Z
 cover: /img/romaneio-frotas-carga-caminhao-gestao.png
 tags:
   - frotas
