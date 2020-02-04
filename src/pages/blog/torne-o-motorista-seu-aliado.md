@@ -8,6 +8,9 @@ tags:
   - Telemetria
   - Frotas
   - Gestão
+  - Motorista
+  - Caminhão
+  - Monitoramento
 meta_title: Torne o Motorista seu Aliado
 meta_description: >-
   O gestor de frotas é, acima de tudo, um gestor de pessoas. É fundamental para
