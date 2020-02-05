@@ -22,8 +22,6 @@ O ano se inicia e todos nós queremos que os custos com a frota fiquem dentro do
 
 Para reduzir esse problema é fundamental que você adote um plano de manutenção preventiva!
 
-
-
 **Por que criar um plano de manutenção preventiva?**
 
 O plano de manutenção do veículo de carga preventiva irá te ajudar a ter uma maior previsibilidade dos custos com manutenção ao longo do ano, uma vez que você terá planejado toda a troca de peças e manutenções ao longo do ano. 
@@ -33,8 +31,6 @@ Aplicando essa forma de manutenção do veículo, você evita a sua quebra, o qu
 Por fim, [a manutenção preventiva aumenta a vida útil do veículo ](blog.minasmaquinas.com.br/sem-categoria/dicas-de-manutencao-do-seu-caminhao-mercedes-benz/)de carga e reduz o seu desgaste.
 
 Veja nesse post melhor a diferença entres os tipos manutenção: [Os diferentes tipos de manutenção](https://www.infleet.com.br/blog/por-que-devo-fazer-a-gest%C3%A3o-de-manuten%C3%A7%C3%A3o-da-minha-frota/)
-
-
 
 **Como montar o seu plano de manutenção?** 
 
