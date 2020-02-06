@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Principais indicadores para gestão de frotas
-slug: principais indicadores para gestao de frotas
+slug: principais-indicadores-gestao-frotas-transporte
 date: 2019-10-04T13:04:51.671Z
 cover: /img/principais-indicadores.jpg
 tags:
