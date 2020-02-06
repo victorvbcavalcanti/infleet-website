@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Tendências na Gestão de Frotas
-slug: Tendências na Gestao de Frotas
+slug: gestao-frotas-sistema-monitoramento-indicadores
 date: 2019-10-25T12:01:17.085Z
 cover: >-
   /img/tendências-tecnologia-infleet-monitoramento-gestão-de-frota-carga-transporte-roteirização-abastecimento-manutenção.png
