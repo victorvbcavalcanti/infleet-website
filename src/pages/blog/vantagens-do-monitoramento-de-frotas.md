@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Vantagens do Monitoramento de Frotas
-slug: Vantagens do Monitoramento de Frotas Gestao Rastreamento
+slug: vantagens-monitoramento-frotas-gestao-rastreamento-monitoramento
 date: 2020-01-23T14:17:16.378Z
 cover: /img/frotas-monitoramento-rastreamento-gestão.jpg
 tags:
