@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Quais as vantagens da integração de dados de frotas?
-slug: Quais as vantagens da integração de dados de frotas
+slug: vantagens-integração-dados-frotas-transporte
 date: 2019-11-28T12:08:23.852Z
 cover: /img/frotas-infleet-gestao-dados-informacao.jpg
 tags:
