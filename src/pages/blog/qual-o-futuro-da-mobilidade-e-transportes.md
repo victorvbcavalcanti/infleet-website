@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Qual o futuro da mobilidade e transportes?
-slug: Qual o futuro da mobilidade e transportes
+slug: futuro-mobilidade-transportes-fenatran-sae
 date: 2019-10-13T13:44:26.751Z
 cover: /img/fenatran.jpg
 tags:
