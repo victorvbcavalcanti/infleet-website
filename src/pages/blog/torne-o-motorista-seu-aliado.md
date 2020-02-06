@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Torne o Motorista seu Aliado
-slug: Torne o Motorista seu Aliado
+slug: motorista-aliado-jornada-rastreamento
 date: 2019-11-08T18:16:23.149Z
 cover: /img/motorista-controle-frotas-infleet.jpg
 tags:
