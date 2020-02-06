@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Quais são as maiores causas de acidentes nas rodovias?
-slug: Quais são as maiores causas de acidentes nas rodovias
+slug: maiores-causas-acidentes-rodovias-transporte
 date: 2019-11-29T12:43:48.727Z
 cover: /img/image1.jpeg
 tags:
