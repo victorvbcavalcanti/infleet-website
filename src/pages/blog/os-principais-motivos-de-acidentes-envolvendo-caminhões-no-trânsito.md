@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Os principais motivos de acidentes envolvendo caminhões no trânsito
-slug: Os principais motivos de acidentes envolvendo caminhões no trânsito
+slug: principais-motivos-acidentes-envolvendo-caminhoes-no-trânsito
 date: 2019-11-29T13:25:47.646Z
 cover: /img/gestao-frotas-acidente-caminhão.jpg
 tags:
