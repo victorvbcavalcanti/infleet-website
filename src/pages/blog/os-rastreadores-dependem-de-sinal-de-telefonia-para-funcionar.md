@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Os rastreadores dependem de sinal de telefonia para funcionar?
-slug: Os rastreadores dependem de sinal de telefonia para funcionar?
+slug: rastreadores-dependem-sinal-telefonia-funcionar-frotas
 date: 2019-11-01T12:09:17.055Z
 cover: /img/rastreamento-frotas-satelital.png
 tags:
