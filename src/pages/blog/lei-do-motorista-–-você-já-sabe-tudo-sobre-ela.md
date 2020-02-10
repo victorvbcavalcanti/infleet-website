@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Lei do motorista – Você já sabe tudo sobre ela?
-slug: Lei do motorista – Você já sabe tudo sobre ela?
+slug: lei-motorista-jornada-frotas
 date: 2019-12-10T11:55:21.268Z
 cover: /img/lei-motorista-frotas-jornada.jpg
 tags:
