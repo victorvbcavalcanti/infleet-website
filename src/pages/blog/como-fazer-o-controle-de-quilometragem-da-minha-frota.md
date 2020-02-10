@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como fazer o controle de quilometragem da minha frota?
-slug: Como fazer o controle de quilometragem da minha frota?
+slug: como-fazer-controle-quilometragem-minha-frota-odometro
 date: 2019-11-06T18:40:04.925Z
 cover: /img/odometro-quilometragem-frotas.jpeg
 tags:
