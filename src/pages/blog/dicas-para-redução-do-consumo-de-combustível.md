@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Dicas para redução do consumo de combustível
-slug: Dicas para redução do consumo de combustível
+slug: dicas-reducao-do-consumo-de-combustivel-abastecimento-frotas
 date: 2019-12-02T20:26:57.652Z
 cover: /img/abastecimento-frotas-gestao-combustivel.jpg
 tags:
