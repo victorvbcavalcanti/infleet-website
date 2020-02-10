@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como a telemetria pode te ajudar a reduzir custos
-slug: Como a telemetria pode te ajudar a reduzir custos
+slug: como-telemetria-pode-ajudar-reduzir-custos-rastreamento-monitoramento
 date: 2020-01-15T17:02:49.832Z
 cover: /img/telemetria-custos.jpg
 tags:
