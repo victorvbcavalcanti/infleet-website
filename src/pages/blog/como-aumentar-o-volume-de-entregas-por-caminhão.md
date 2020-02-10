@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como aumentar o volume de entregas por caminhão?
-slug: aumentar o volume de entregas por caminhão frotas gestao
+slug: aumentar-o-volume-de-entregas-por-caminhão-frotas-gestao
 date: 2020-01-27T17:43:38.817Z
 cover: /img/caminhao-gestao-frotas-volume-cubagem.png
 tags:
