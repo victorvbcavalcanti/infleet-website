@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como prevenir desvio de carga?
-slug: como prevenir desvio de carga
+slug: como-prevenir-desvio-de-carga-transporte
 date: 2019-10-15T13:13:22.190Z
 cover: /img/desvio-carga.png
 tags:
