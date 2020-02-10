@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como criar o plano de manutenção ideal para a sua frota
-slug: Como criar o plano de manutenção ideal para a sua frota
+slug: como-criar-plano-de-manutencao-ideal-frota-gestao
 date: 2020-01-16T20:32:19.978Z
 cover: /img/manutenção-frotas-gestão.png
 tags:
