@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como aumentar a durabilidade do pneu?
-slug: Como aumentar a durabilidade do pneu?
+slug: como-aumentar-durabilidade-pneu
 date: 2019-11-07T11:52:49.557Z
 cover: /img/pneus-frotas-gestao-logistica.jpg
 tags:
