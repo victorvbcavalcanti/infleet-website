@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como funcionam os rastreadores veiculares?
-slug: Como funcionam os rastreadores veiculares?
+slug: como-funcionam-os-rastreadores-veiculares-frotas
 date: 2019-11-01T12:32:53.630Z
 cover: /img/rastreador-tecnologia-frotas.jpg
 tags:
