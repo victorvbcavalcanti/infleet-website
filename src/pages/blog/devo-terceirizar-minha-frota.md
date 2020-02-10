@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Devo terceirizar minha frota?
-slug: Devo terceirizar minha frota
+slug: devo-terceirizar-minha-frota-gestao
 date: 2019-10-11T13:22:27.343Z
 cover: /img/terceirizar-frota.jpg
 tags:
