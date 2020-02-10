@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: '4 Benefícios do Business Intelligence (BI) para Logística '
-slug: '4 Benefícios do Business Intelligence (BI) para Logística '
+slug: 4-beneficios-do-business-intelligence-para-logistica-frotas
 date: 2019-12-12T11:24:49.467Z
 cover: /img/business-intelligence-frotas-gestao-indicadores.jpeg
 tags:
