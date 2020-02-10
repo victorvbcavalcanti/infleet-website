@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Como fazer um controle eficiente de multas na sua frota
-slug: Como fazer um controle eficiente de multas na sua frota
+slug: como-fazer-controle-eficiente-multas-frota-transporte
 date: 2019-10-31T18:58:04.520Z
 cover: /img/policia-rodoviaria.jpg
 tags:
