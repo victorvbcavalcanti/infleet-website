@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: O que encontramos na FENATRAN
-slug: O que encontramos na FENATRAN
+slug: encontramos-fenatran-gestao-frotas
 date: 2019-10-21T20:25:52.916Z
 cover: /img/fenatran-2019.jpeg
 tags:
