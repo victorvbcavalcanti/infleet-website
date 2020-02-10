@@ -3,7 +3,7 @@ templateKey: article-page
 title: >-
   Correios e Porto de Santos são incluídos no Programa de Parcerias de
   Investimentos (PPI)
-slug: Correios e Porto de Santos são incluídos no PPI
+slug: correios-porto-de-santos-incluidos-no-PPI-terceirizacao
 date: 2019-08-22T16:45:06.928Z
 cover: /img/correios.jpg
 tags:
