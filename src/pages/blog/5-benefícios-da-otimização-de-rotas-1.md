@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: 5 benefícios da otimização de rotas
-slug: 5 benefícios da otimização de rotas
+slug: 5-beneficios-da-otimizacao-de-rotas-roteirizacao-gestao-frotas
 date: 2019-10-04T16:44:08.222Z
 cover: /img/roteirizador.jpeg
 tags:
