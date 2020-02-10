@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: A entrega através de veículos autônomos já é uma realidade
-slug: A entrega através de veículos autônomos já é uma realidade
+slug: entrega-atraves-veiculos-autonomos-realidade-tecnologia-frotas
 date: 2019-11-25T00:19:58.539Z
 cover: /img/ifood-carro-autonomo-entrega-frotas.jpg
 tags:
