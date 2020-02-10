@@ -1,7 +1,7 @@
 ---
 templateKey: article-page
 title: Conheça os Riscos de Abastecer com Combustível Adulterado
-slug: Conheça os Riscos de Abastecer com Combustível Adulterado
+slug: riscos-abastecer-combustivel-adulterado-frotas
 date: 2019-11-11T17:46:21.332Z
 cover: /img/combustivel-abastecimento-frotas-infleet.png
 tags:
